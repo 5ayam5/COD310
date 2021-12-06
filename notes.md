@@ -100,4 +100,6 @@ $$Delay < D_{MAX} (= 8.415 ms)$$
 # CoreMemDTM: Integrated Processor Core and 3D Memory Dynamic Thermal Management for Improved Performance
 
 ## Overview
+Independent thermal management of core and memory leads to inefficient management since both cores and memories slow down
+
 
