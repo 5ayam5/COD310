@@ -19,6 +19,9 @@ title: COD310 Notes
 
 # Doubts
 1. What mechanism controls the memory management in memory devices
+1. ~~Why is 3D memory better?~~ (resolved)
+    - compactness
+    - Through Silicon Via - TSV (like?) technology is used
 
 # Leakage-Aware Dynamic Thermal Management of 3D Memories
 
@@ -103,3 +106,27 @@ $$Delay < D_{MAX} (= 8.415 ms)$$
 Independent thermal management of core and memory leads to inefficient management since both cores and memories slow down
 
 
+# Project Problem Statement
+Given $n$ cores and $k$ 3D memory ranks, with each core accessing memory across all ranks (in some manner), maximise the total instructions per second (IPS) under a memory power budget and a thermal constraint:
+$$\max{\sum_i{IPS_i}},$$
+$$\sum_r{P_r} \leq P_M$$
+$$\underset{r}\max\ {T_r} \leq T_M$$
+
+## Points to Consider
+1. Leakage power and temperature have a positive feedback loop
+1. The problem formulation is similar to a knapsack problem but more constrained
+1. Need to model a formal relation between $P_r$ and $IPS_i$
+1. Model needs to be robust enough to be able to work efficiently for different corner cases such as:
+  - low poer budget
+  - no memory accesses
+  - high memory accesses
+  - specific memory is being accessed more
+
+## Basic Background
+1. Memories have multiple standard power states
+    i. Accessing
+    i. Active
+    i. Standby
+    i. Nap
+    i. Powerdown
+    i. (a few more?)
