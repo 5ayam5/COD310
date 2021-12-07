@@ -1,0 +1,6 @@
+[submodule "3D_power_thermal"]
+	path = 3D_power_thermal
+	url = https://github.com/shailjap29/3D_power_thermal.git
+[submodule "hotspot"]
+	path = hotspot
+	url = https://github.com/shailjap29/hotspot.git
