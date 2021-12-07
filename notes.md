@@ -122,6 +122,16 @@ $$\underset{r}\max\ {T_r} \leq T_M$$
   - high memory accesses
   - specific memory is being accessed more
 
+## Learning Points
+1. Types of simulation
+    i. Cycle accurate
+        - Gem5
+    i. Interval based
+        - Sniper (read getting started)
+        - Repo files - dram_trace_collect, dram_cntrlr, print_trace
+1. HotSpot - memory access trace to power trace is converted to temperature trace
+    - read how-to
+
 ## Basic Background
 1. Memories have multiple standard power states
     i. Accessing
