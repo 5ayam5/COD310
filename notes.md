@@ -106,7 +106,7 @@ $$Delay < D_{MAX} (= 8.415 ms)$$
 Independent thermal management of core and memory leads to inefficient management since both cores and memories slow down
 
 
-# Project Problem Statement
+# Project Progress
 Given $n$ cores and $k$ 3D memory ranks, with each core accessing memory across all ranks (in some manner), maximise the total instructions per second (IPS) under a memory power budget and a thermal constraint:
 $$\max{\sum_i{IPS_i}},$$
 $$\sum_r{P_r} \leq P_M$$
@@ -140,3 +140,7 @@ $$\underset{r}\max\ {T_r} \leq T_M$$
     i. Nap
     i. Powerdown
     i. (a few more?)
+
+## Meeting on 29 December 2021
+1. Simulating for HBM2 isn't possible right now because of different memory size of the bank and different area than HBM
+1. 
