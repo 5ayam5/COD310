@@ -173,3 +173,6 @@ The above equation is parameterised by $c, r_b, r_c, w_b, w_c$.
 
 We then incorporate the temperature of the banks by penalising the priority:
 $$priority_T(bank_i) = priority(bank_i) - temp(bank_i)\times t_p - \max(temp(neighbours(bank_i)))\times t_p'$$
+This is parameterised by $c, r_b, r_c, w_b, w_c, t_p, t_p', neighbours(\cdot)$. We can be flexible with the definition of $neighbours$ for different banks to accommodate the temperature contributions of neighbours.
+
+These parameters can be computed using an RL algorithm or can be computed analytically looking at the contributions of each parameter to the temperature of the banks and IPS of the cores.
