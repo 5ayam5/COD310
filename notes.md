@@ -117,7 +117,7 @@ $$\underset{r}\max\ {T_r} \leq T_M$$
 1. The problem formulation is similar to a knapsack problem but more constrained
 1. Need to model a formal relation between $P_r$ and $IPS_i$
 1. Model needs to be robust enough to be able to work efficiently for different corner cases such as:
-  - low poer budget
+  - low power budget
   - no memory accesses
   - high memory accesses
   - specific memory is being accessed more
@@ -142,5 +142,34 @@ $$\underset{r}\max\ {T_r} \leq T_M$$
     i. (a few more?)
 
 ## Meeting on 29 December 2021
-1. Simulating for HBM2 isn't possible right now because of different memory size of the bank and different area than HBM
-1. 
+1. Simulating for HBM2 isn't possible right now because of different memory size of the bank and different area than HBM 
+
+## Initial Algorithm Sketch
+
+### Assumption
+1. Only two power states are considered: $p_{low}, p_{high}$ ($p_{low}$ is power when just storing the value, $p_{high}$ is power when bank being read from or written to).
+1. The power budget $P$ is enough to at least service one bank per cycle, i.e., $P \geq (n - 1)\times p_{low} + p_{high}$.
+1. The temperature constraint is given as $T_M$
+
+### Algorithm
+We first compute the maximum number of banks, $m$, that can be serviced per cycle using the following equation:
+$$m\cdot p_{high} + (n - m)\cdot p_{low} = P$$
+$$\implies m = \frac{P - n\cdot p_{low}}{p_{high} - p_{low}}$$
+
+Now, we propose the following algorithm while relaxing the temperature constraint
+```py
+if num_requests <= m:
+  service all banks
+else:
+  service those m banks which have highest priority
+```
+
+We first define $priority$ as follows:
+$$priority(bank_i) = (\text{number of reads at }bank_i\text{ in previous }c\text{ cycles})\times r_b +$$
+$$(\text{number of writes at }bank_i\text{ in previous }c\text{ cycles})\times w_b +$$
+$$(\text{number of reads at }core(bank_i)\text{ in previous }c\text{ cycles})\times r_c +$$
+$$(\text{number of writes at }core(bank_i)\text{ in previous }c\text{ cycles})\times w_c$$
+The above equation is parameterised by $c, r_b, r_c, w_b, w_c$.
+
+We then incorporate the temperature of the banks by penalising the priority:
+$$priority_T(bank_i) = priority(bank_i) - temp(bank_i)\times t_p - \max(temp(neighbours(bank_i)))\times t_p'$$
