@@ -165,11 +165,11 @@ else:
 ```
 
 We first define $priority$ as follows:
-$$priority(bank_i) = (\text{number of reads at }bank_i\text{ in previous }c\text{ cycles})\times r_b +$$
-$$(\text{number of writes at }bank_i\text{ in previous }c\text{ cycles})\times w_b +$$
-$$(\text{number of reads at }core(bank_i)\text{ in previous }c\text{ cycles})\times r_c +$$
-$$(\text{number of writes at }core(bank_i)\text{ in previous }c\text{ cycles})\times w_c$$
-The above equation is parameterised by $c, r_b, r_c, w_b, w_c$.
+$$priority(bank_i) = f(\text{number of memory accesses at }bank_i\text{ in previous }c\text{ cycles})\times b_a +$$
+$$f(\text{number of memory accesses }core(bank_i)\text{ in previous }c\text{ cycles})\times c_a$$
+Where $f$ is given as:
+$$f(x) = \max(x, c - \alpha\cdot x)$$
+The above equation is parameterised by $c, b_a, c_a, \alpha$.
 
 We then incorporate the temperature of the banks by penalising the priority:
 $$priority_T(bank_i) = priority(bank_i) - temp(bank_i)\times t_p - \max(temp(neighbours(bank_i)))\times t_p'$$
