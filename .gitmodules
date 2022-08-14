@@ -4,3 +4,6 @@
 [submodule "hotspot"]
 	path = hotspot
 	url = https://github.com/shailjap29/hotspot.git
+[submodule "CoMeT-Power"]
+	path = CoMeT-Power
+	url = https://github.com/5ayam5/CoMeT-Power

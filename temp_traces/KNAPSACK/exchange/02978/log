@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+ValueError: min() arg is an empty sequence

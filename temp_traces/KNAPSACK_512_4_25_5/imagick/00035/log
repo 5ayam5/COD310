@@ -1,0 +1,58 @@
+warning: layer configuration file specified. overriding default floorplan with those in lcf file...
+j: 435, j_max: 437, k: 89, curr_cost: 87
+87 banks are on, 87 requests are processed, 0
+j: 435, j_max: 437, k: 98, curr_cost: 174
+87 banks are on, 174 requests are processed, 1
+j: 435, j_max: 437, k: 98, curr_cost: 261
+87 banks are on, 261 requests are processed, 2
+j: 436, j_max: 436, k: 66, curr_cost: 383
+122 banks are on, 383 requests are processed, 3
+j: 379, j_max: 379, k: 82, curr_cost: 511
+128 banks are on, 511 requests are processed, 4
+j: 379, j_max: 379, k: 85, curr_cost: 552
+128 banks are on, 639 requests are processed, 5
+j: 309, j_max: 309, k: 26, curr_cost: 593
+128 banks are on, 767 requests are processed, 6
+j: 262, j_max: 262, k: 15, curr_cost: 634
+128 banks are on, 895 requests are processed, 7
+j: 256, j_max: 256, k: 4, curr_cost: 640
+128 banks are on, 1023 requests are processed, 8
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 1151 requests are processed, 9
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 1279 requests are processed, 10
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 1407 requests are processed, 11
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 1535 requests are processed, 12
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 1663 requests are processed, 13
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 1791 requests are processed, 14
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 1919 requests are processed, 15
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 2047 requests are processed, 16
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 2175 requests are processed, 17
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 2303 requests are processed, 18
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 2431 requests are processed, 19
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 2559 requests are processed, 20
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 2687 requests are processed, 21
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 2815 requests are processed, 22
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 2943 requests are processed, 23
+j: 82, j_max: 82, k: 0, curr_cost: 640
+128 banks are on, 2984 requests are processed, 24
+j: 82, j_max: 82, k: 0, curr_cost: 553
+128 banks are on, 3025 requests are processed, 25
+j: 82, j_max: 82, k: 0, curr_cost: 466
+128 banks are on, 3066 requests are processed, 26
+Total number of cycles: 27
+Average number of banks that are on: 123.22
+Segmentation fault (core dumped)

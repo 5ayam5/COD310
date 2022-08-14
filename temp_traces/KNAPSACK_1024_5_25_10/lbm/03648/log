@@ -1,0 +1,838 @@
+warning: layer configuration file specified. overriding default floorplan with those in lcf file...
+j: 873, j_max: 873, k: 0, curr_cost: 97
+97 banks are on, 97 requests are processed, 0
+j: 864, j_max: 870, k: 0, curr_cost: 192
+96 banks are on, 193 requests are processed, 1
+j: 864, j_max: 867, k: 16, curr_cost: 288
+96 banks are on, 289 requests are processed, 2
+j: 864, j_max: 864, k: 116, curr_cost: 384
+96 banks are on, 385 requests are processed, 3
+j: 856, j_max: 861, k: 236, curr_cost: 475
+95 banks are on, 480 requests are processed, 4
+j: 857, j_max: 858, k: 503, curr_cost: 565
+95 banks are on, 575 requests are processed, 5
+j: 852, j_max: 856, k: 486, curr_cost: 585
+91 banks are on, 666 requests are processed, 6
+j: 846, j_max: 854, k: 495, curr_cost: 642
+92 banks are on, 758 requests are processed, 7
+j: 850, j_max: 853, k: 495, curr_cost: 724
+93 banks are on, 851 requests are processed, 8
+j: 846, j_max: 852, k: 487, curr_cost: 811
+93 banks are on, 944 requests are processed, 9
+j: 851, j_max: 851, k: 499, curr_cost: 787
+93 banks are on, 1037 requests are processed, 10
+j: 844, j_max: 850, k: 489, curr_cost: 768
+93 banks are on, 1130 requests are processed, 11
+j: 848, j_max: 850, k: 499, curr_cost: 760
+94 banks are on, 1224 requests are processed, 12
+j: 849, j_max: 850, k: 489, curr_cost: 808
+94 banks are on, 1318 requests are processed, 13
+j: 850, j_max: 850, k: 497, curr_cost: 837
+94 banks are on, 1412 requests are processed, 14
+j: 846, j_max: 849, k: 492, curr_cost: 862
+93 banks are on, 1505 requests are processed, 15
+j: 844, j_max: 849, k: 501, curr_cost: 876
+93 banks are on, 1598 requests are processed, 16
+j: 849, j_max: 849, k: 489, curr_cost: 891
+93 banks are on, 1691 requests are processed, 17
+j: 844, j_max: 849, k: 498, curr_cost: 897
+93 banks are on, 1784 requests are processed, 18
+j: 846, j_max: 849, k: 492, curr_cost: 918
+93 banks are on, 1877 requests are processed, 19
+j: 849, j_max: 849, k: 498, curr_cost: 919
+93 banks are on, 1970 requests are processed, 20
+j: 847, j_max: 848, k: 503, curr_cost: 923
+93 banks are on, 2063 requests are processed, 21
+j: 845, j_max: 848, k: 499, curr_cost: 925
+93 banks are on, 2156 requests are processed, 22
+j: 844, j_max: 848, k: 494, curr_cost: 930
+93 banks are on, 2249 requests are processed, 23
+j: 848, j_max: 848, k: 500, curr_cost: 920
+92 banks are on, 2341 requests are processed, 24
+j: 847, j_max: 848, k: 500, curr_cost: 920
+92 banks are on, 2433 requests are processed, 25
+j: 841, j_max: 848, k: 481, curr_cost: 920
+92 banks are on, 2525 requests are processed, 26
+j: 847, j_max: 848, k: 499, curr_cost: 926
+93 banks are on, 2618 requests are processed, 27
+j: 847, j_max: 848, k: 510, curr_cost: 927
+93 banks are on, 2711 requests are processed, 28
+j: 847, j_max: 848, k: 506, curr_cost: 930
+93 banks are on, 2804 requests are processed, 29
+j: 843, j_max: 847, k: 491, curr_cost: 920
+92 banks are on, 2896 requests are processed, 30
+j: 843, j_max: 847, k: 507, curr_cost: 930
+93 banks are on, 2989 requests are processed, 31
+j: 846, j_max: 847, k: 490, curr_cost: 920
+93 banks are on, 3082 requests are processed, 32
+j: 843, j_max: 847, k: 460, curr_cost: 920
+92 banks are on, 3174 requests are processed, 33
+j: 839, j_max: 847, k: 492, curr_cost: 919
+92 banks are on, 3266 requests are processed, 34
+j: 845, j_max: 847, k: 454, curr_cost: 920
+92 banks are on, 3358 requests are processed, 35
+j: 847, j_max: 847, k: 490, curr_cost: 923
+93 banks are on, 3451 requests are processed, 36
+j: 844, j_max: 847, k: 461, curr_cost: 930
+93 banks are on, 3544 requests are processed, 37
+j: 842, j_max: 847, k: 491, curr_cost: 920
+92 banks are on, 3636 requests are processed, 38
+j: 847, j_max: 847, k: 473, curr_cost: 924
+93 banks are on, 3729 requests are processed, 39
+j: 841, j_max: 847, k: 490, curr_cost: 920
+92 banks are on, 3821 requests are processed, 40
+j: 846, j_max: 847, k: 480, curr_cost: 930
+93 banks are on, 3914 requests are processed, 41
+j: 847, j_max: 847, k: 445, curr_cost: 915
+92 banks are on, 4006 requests are processed, 42
+j: 841, j_max: 847, k: 446, curr_cost: 910
+91 banks are on, 4097 requests are processed, 43
+j: 847, j_max: 847, k: 454, curr_cost: 926
+93 banks are on, 4190 requests are processed, 44
+j: 844, j_max: 847, k: 500, curr_cost: 930
+93 banks are on, 4283 requests are processed, 45
+j: 839, j_max: 847, k: 493, curr_cost: 920
+92 banks are on, 4375 requests are processed, 46
+j: 840, j_max: 847, k: 493, curr_cost: 920
+92 banks are on, 4467 requests are processed, 47
+j: 839, j_max: 847, k: 493, curr_cost: 920
+92 banks are on, 4559 requests are processed, 48
+j: 841, j_max: 847, k: 454, curr_cost: 920
+92 banks are on, 4651 requests are processed, 49
+j: 847, j_max: 847, k: 499, curr_cost: 930
+93 banks are on, 4744 requests are processed, 50
+j: 842, j_max: 847, k: 491, curr_cost: 920
+92 banks are on, 4836 requests are processed, 51
+j: 844, j_max: 847, k: 492, curr_cost: 920
+92 banks are on, 4928 requests are processed, 52
+j: 839, j_max: 847, k: 493, curr_cost: 920
+92 banks are on, 5020 requests are processed, 53
+j: 839, j_max: 847, k: 473, curr_cost: 920
+92 banks are on, 5112 requests are processed, 54
+j: 841, j_max: 847, k: 493, curr_cost: 920
+92 banks are on, 5204 requests are processed, 55
+j: 839, j_max: 847, k: 492, curr_cost: 920
+92 banks are on, 5296 requests are processed, 56
+j: 843, j_max: 847, k: 454, curr_cost: 920
+92 banks are on, 5388 requests are processed, 57
+j: 844, j_max: 847, k: 473, curr_cost: 920
+92 banks are on, 5480 requests are processed, 58
+j: 841, j_max: 847, k: 492, curr_cost: 920
+92 banks are on, 5572 requests are processed, 59
+j: 839, j_max: 847, k: 484, curr_cost: 910
+91 banks are on, 5663 requests are processed, 60
+j: 842, j_max: 847, k: 466, curr_cost: 910
+91 banks are on, 5754 requests are processed, 61
+j: 841, j_max: 847, k: 492, curr_cost: 920
+92 banks are on, 5846 requests are processed, 62
+j: 842, j_max: 847, k: 474, curr_cost: 920
+92 banks are on, 5938 requests are processed, 63
+j: 841, j_max: 847, k: 503, curr_cost: 917
+92 banks are on, 6030 requests are processed, 64
+j: 841, j_max: 847, k: 474, curr_cost: 920
+92 banks are on, 6122 requests are processed, 65
+j: 843, j_max: 847, k: 512, curr_cost: 920
+92 banks are on, 6214 requests are processed, 66
+j: 847, j_max: 847, k: 494, curr_cost: 928
+93 banks are on, 6307 requests are processed, 67
+j: 837, j_max: 847, k: 486, curr_cost: 919
+92 banks are on, 6399 requests are processed, 68
+j: 840, j_max: 847, k: 428, curr_cost: 920
+92 banks are on, 6491 requests are processed, 69
+j: 839, j_max: 847, k: 467, curr_cost: 920
+92 banks are on, 6583 requests are processed, 70
+j: 839, j_max: 847, k: 484, curr_cost: 920
+92 banks are on, 6675 requests are processed, 71
+j: 838, j_max: 847, k: 485, curr_cost: 920
+92 banks are on, 6767 requests are processed, 72
+j: 841, j_max: 847, k: 447, curr_cost: 920
+92 banks are on, 6859 requests are processed, 73
+j: 838, j_max: 847, k: 447, curr_cost: 920
+92 banks are on, 6951 requests are processed, 74
+j: 841, j_max: 847, k: 467, curr_cost: 920
+92 banks are on, 7043 requests are processed, 75
+j: 843, j_max: 847, k: 465, curr_cost: 920
+92 banks are on, 7135 requests are processed, 76
+j: 840, j_max: 847, k: 466, curr_cost: 920
+92 banks are on, 7227 requests are processed, 77
+j: 838, j_max: 847, k: 420, curr_cost: 910
+91 banks are on, 7318 requests are processed, 78
+j: 842, j_max: 847, k: 440, curr_cost: 910
+91 banks are on, 7409 requests are processed, 79
+j: 838, j_max: 847, k: 477, curr_cost: 910
+91 banks are on, 7500 requests are processed, 80
+j: 846, j_max: 847, k: 486, curr_cost: 920
+92 banks are on, 7592 requests are processed, 81
+j: 843, j_max: 847, k: 485, curr_cost: 920
+92 banks are on, 7684 requests are processed, 82
+j: 840, j_max: 847, k: 446, curr_cost: 920
+92 banks are on, 7776 requests are processed, 83
+j: 843, j_max: 847, k: 445, curr_cost: 920
+92 banks are on, 7868 requests are processed, 84
+j: 841, j_max: 847, k: 502, curr_cost: 920
+92 banks are on, 7960 requests are processed, 85
+j: 843, j_max: 847, k: 504, curr_cost: 920
+92 banks are on, 8052 requests are processed, 86
+j: 841, j_max: 847, k: 447, curr_cost: 920
+92 banks are on, 8144 requests are processed, 87
+j: 838, j_max: 847, k: 478, curr_cost: 910
+91 banks are on, 8235 requests are processed, 88
+j: 838, j_max: 847, k: 486, curr_cost: 920
+92 banks are on, 8327 requests are processed, 89
+j: 841, j_max: 847, k: 427, curr_cost: 920
+92 banks are on, 8419 requests are processed, 90
+j: 841, j_max: 847, k: 467, curr_cost: 920
+92 banks are on, 8511 requests are processed, 91
+j: 843, j_max: 847, k: 504, curr_cost: 920
+92 banks are on, 8603 requests are processed, 92
+j: 847, j_max: 847, k: 486, curr_cost: 920
+92 banks are on, 8695 requests are processed, 93
+j: 842, j_max: 846, k: 467, curr_cost: 920
+92 banks are on, 8787 requests are processed, 94
+j: 840, j_max: 846, k: 447, curr_cost: 920
+92 banks are on, 8879 requests are processed, 95
+j: 838, j_max: 846, k: 497, curr_cost: 910
+91 banks are on, 8970 requests are processed, 96
+j: 836, j_max: 846, k: 497, curr_cost: 910
+91 banks are on, 9061 requests are processed, 97
+j: 841, j_max: 846, k: 467, curr_cost: 920
+92 banks are on, 9153 requests are processed, 98
+j: 846, j_max: 846, k: 467, curr_cost: 920
+92 banks are on, 9245 requests are processed, 99
+j: 846, j_max: 846, k: 505, curr_cost: 920
+92 banks are on, 9337 requests are processed, 100
+j: 837, j_max: 846, k: 458, curr_cost: 910
+91 banks are on, 9428 requests are processed, 101
+j: 845, j_max: 846, k: 467, curr_cost: 920
+92 banks are on, 9520 requests are processed, 102
+j: 833, j_max: 846, k: 497, curr_cost: 910
+91 banks are on, 9611 requests are processed, 103
+j: 843, j_max: 846, k: 486, curr_cost: 920
+92 banks are on, 9703 requests are processed, 104
+j: 846, j_max: 846, k: 486, curr_cost: 920
+92 banks are on, 9795 requests are processed, 105
+j: 846, j_max: 846, k: 486, curr_cost: 920
+92 banks are on, 9887 requests are processed, 106
+j: 846, j_max: 846, k: 485, curr_cost: 920
+92 banks are on, 9979 requests are processed, 107
+j: 834, j_max: 846, k: 497, curr_cost: 910
+91 banks are on, 10070 requests are processed, 108
+j: 838, j_max: 846, k: 460, curr_cost: 910
+91 banks are on, 10161 requests are processed, 109
+j: 844, j_max: 846, k: 506, curr_cost: 920
+92 banks are on, 10253 requests are processed, 110
+j: 845, j_max: 846, k: 505, curr_cost: 920
+92 banks are on, 10345 requests are processed, 111
+j: 845, j_max: 846, k: 504, curr_cost: 920
+92 banks are on, 10437 requests are processed, 112
+j: 843, j_max: 846, k: 487, curr_cost: 920
+92 banks are on, 10529 requests are processed, 113
+j: 839, j_max: 846, k: 479, curr_cost: 910
+91 banks are on, 10620 requests are processed, 114
+j: 838, j_max: 846, k: 478, curr_cost: 910
+91 banks are on, 10711 requests are processed, 115
+j: 838, j_max: 846, k: 498, curr_cost: 910
+91 banks are on, 10802 requests are processed, 116
+j: 840, j_max: 846, k: 496, curr_cost: 910
+91 banks are on, 10893 requests are processed, 117
+j: 839, j_max: 846, k: 458, curr_cost: 910
+91 banks are on, 10984 requests are processed, 118
+j: 838, j_max: 846, k: 497, curr_cost: 910
+91 banks are on, 11075 requests are processed, 119
+j: 846, j_max: 846, k: 505, curr_cost: 920
+92 banks are on, 11167 requests are processed, 120
+j: 845, j_max: 846, k: 506, curr_cost: 920
+92 banks are on, 11259 requests are processed, 121
+j: 845, j_max: 846, k: 487, curr_cost: 920
+92 banks are on, 11351 requests are processed, 122
+j: 840, j_max: 846, k: 479, curr_cost: 910
+91 banks are on, 11442 requests are processed, 123
+j: 843, j_max: 846, k: 479, curr_cost: 910
+91 banks are on, 11533 requests are processed, 124
+j: 828, j_max: 846, k: 509, curr_cost: 900
+90 banks are on, 11623 requests are processed, 125
+j: 831, j_max: 846, k: 492, curr_cost: 900
+90 banks are on, 11713 requests are processed, 126
+j: 844, j_max: 846, k: 468, curr_cost: 920
+92 banks are on, 11805 requests are processed, 127
+j: 838, j_max: 846, k: 497, curr_cost: 910
+91 banks are on, 11896 requests are processed, 128
+j: 838, j_max: 846, k: 460, curr_cost: 910
+91 banks are on, 11987 requests are processed, 129
+j: 839, j_max: 846, k: 479, curr_cost: 910
+91 banks are on, 12078 requests are processed, 130
+j: 827, j_max: 846, k: 489, curr_cost: 900
+90 banks are on, 12168 requests are processed, 131
+j: 844, j_max: 846, k: 478, curr_cost: 910
+91 banks are on, 12259 requests are processed, 132
+j: 837, j_max: 846, k: 478, curr_cost: 910
+91 banks are on, 12350 requests are processed, 133
+j: 839, j_max: 846, k: 478, curr_cost: 910
+91 banks are on, 12441 requests are processed, 134
+j: 841, j_max: 846, k: 439, curr_cost: 910
+91 banks are on, 12532 requests are processed, 135
+j: 842, j_max: 846, k: 478, curr_cost: 910
+91 banks are on, 12623 requests are processed, 136
+j: 832, j_max: 846, k: 489, curr_cost: 900
+90 banks are on, 12713 requests are processed, 137
+j: 840, j_max: 846, k: 441, curr_cost: 910
+91 banks are on, 12804 requests are processed, 138
+j: 842, j_max: 846, k: 460, curr_cost: 910
+91 banks are on, 12895 requests are processed, 139
+j: 838, j_max: 846, k: 460, curr_cost: 910
+91 banks are on, 12986 requests are processed, 140
+j: 830, j_max: 846, k: 489, curr_cost: 900
+90 banks are on, 13076 requests are processed, 141
+j: 844, j_max: 846, k: 479, curr_cost: 910
+91 banks are on, 13167 requests are processed, 142
+j: 844, j_max: 846, k: 479, curr_cost: 910
+91 banks are on, 13258 requests are processed, 143
+j: 844, j_max: 846, k: 479, curr_cost: 910
+91 banks are on, 13349 requests are processed, 144
+j: 841, j_max: 846, k: 459, curr_cost: 910
+91 banks are on, 13440 requests are processed, 145
+j: 844, j_max: 846, k: 478, curr_cost: 910
+91 banks are on, 13531 requests are processed, 146
+j: 846, j_max: 846, k: 505, curr_cost: 920
+92 banks are on, 13623 requests are processed, 147
+j: 831, j_max: 846, k: 488, curr_cost: 900
+90 banks are on, 13713 requests are processed, 148
+j: 838, j_max: 846, k: 441, curr_cost: 910
+91 banks are on, 13804 requests are processed, 149
+j: 839, j_max: 846, k: 433, curr_cost: 900
+90 banks are on, 13894 requests are processed, 150
+j: 843, j_max: 846, k: 498, curr_cost: 910
+91 banks are on, 13985 requests are processed, 151
+j: 843, j_max: 846, k: 459, curr_cost: 910
+91 banks are on, 14076 requests are processed, 152
+j: 845, j_max: 846, k: 497, curr_cost: 910
+91 banks are on, 14167 requests are processed, 153
+j: 838, j_max: 846, k: 451, curr_cost: 900
+90 banks are on, 14257 requests are processed, 154
+j: 842, j_max: 846, k: 497, curr_cost: 910
+91 banks are on, 14348 requests are processed, 155
+j: 838, j_max: 846, k: 451, curr_cost: 900
+90 banks are on, 14438 requests are processed, 156
+j: 840, j_max: 846, k: 497, curr_cost: 910
+91 banks are on, 14529 requests are processed, 157
+j: 837, j_max: 846, k: 459, curr_cost: 910
+91 banks are on, 14620 requests are processed, 158
+j: 830, j_max: 846, k: 489, curr_cost: 900
+90 banks are on, 14710 requests are processed, 159
+j: 846, j_max: 846, k: 459, curr_cost: 910
+91 banks are on, 14801 requests are processed, 160
+j: 843, j_max: 846, k: 478, curr_cost: 910
+91 banks are on, 14892 requests are processed, 161
+j: 834, j_max: 846, k: 489, curr_cost: 900
+90 banks are on, 14982 requests are processed, 162
+j: 843, j_max: 846, k: 478, curr_cost: 910
+91 banks are on, 15073 requests are processed, 163
+j: 846, j_max: 846, k: 458, curr_cost: 910
+91 banks are on, 15164 requests are processed, 164
+j: 830, j_max: 846, k: 489, curr_cost: 900
+90 banks are on, 15254 requests are processed, 165
+j: 838, j_max: 846, k: 479, curr_cost: 910
+91 banks are on, 15345 requests are processed, 166
+j: 840, j_max: 846, k: 498, curr_cost: 910
+91 banks are on, 15436 requests are processed, 167
+j: 842, j_max: 846, k: 452, curr_cost: 900
+90 banks are on, 15526 requests are processed, 168
+j: 841, j_max: 846, k: 479, curr_cost: 910
+91 banks are on, 15617 requests are processed, 169
+j: 838, j_max: 846, k: 471, curr_cost: 900
+90 banks are on, 15707 requests are processed, 170
+j: 837, j_max: 846, k: 433, curr_cost: 900
+90 banks are on, 15797 requests are processed, 171
+j: 839, j_max: 846, k: 452, curr_cost: 900
+90 banks are on, 15887 requests are processed, 172
+j: 837, j_max: 846, k: 452, curr_cost: 900
+90 banks are on, 15977 requests are processed, 173
+j: 845, j_max: 846, k: 460, curr_cost: 910
+91 banks are on, 16068 requests are processed, 174
+j: 844, j_max: 846, k: 479, curr_cost: 910
+91 banks are on, 16159 requests are processed, 175
+j: 841, j_max: 846, k: 498, curr_cost: 910
+91 banks are on, 16250 requests are processed, 176
+j: 846, j_max: 846, k: 441, curr_cost: 910
+91 banks are on, 16341 requests are processed, 177
+j: 840, j_max: 846, k: 490, curr_cost: 900
+90 banks are on, 16431 requests are processed, 178
+j: 838, j_max: 846, k: 471, curr_cost: 900
+90 banks are on, 16521 requests are processed, 179
+j: 839, j_max: 846, k: 433, curr_cost: 900
+90 banks are on, 16611 requests are processed, 180
+j: 844, j_max: 846, k: 509, curr_cost: 900
+90 banks are on, 16701 requests are processed, 181
+j: 845, j_max: 846, k: 441, curr_cost: 910
+91 banks are on, 16792 requests are processed, 182
+j: 844, j_max: 846, k: 460, curr_cost: 910
+91 banks are on, 16883 requests are processed, 183
+j: 831, j_max: 846, k: 511, curr_cost: 900
+90 banks are on, 16973 requests are processed, 184
+j: 835, j_max: 846, k: 509, curr_cost: 900
+90 banks are on, 17063 requests are processed, 185
+j: 843, j_max: 846, k: 414, curr_cost: 900
+90 banks are on, 17153 requests are processed, 186
+j: 845, j_max: 846, k: 498, curr_cost: 910
+91 banks are on, 17244 requests are processed, 187
+j: 840, j_max: 846, k: 471, curr_cost: 900
+90 banks are on, 17334 requests are processed, 188
+j: 842, j_max: 846, k: 509, curr_cost: 900
+90 banks are on, 17424 requests are processed, 189
+j: 846, j_max: 846, k: 479, curr_cost: 910
+91 banks are on, 17515 requests are processed, 190
+j: 841, j_max: 846, k: 433, curr_cost: 900
+90 banks are on, 17605 requests are processed, 191
+j: 487, j_max: 567, k: 489, curr_cost: 900
+90 banks are on, 17657 requests are processed, 192
+j: 538, j_max: 558, k: 505, curr_cost: 913
+96 banks are on, 17714 requests are processed, 193
+j: 556, j_max: 556, k: 489, curr_cost: 900
+98 banks are on, 17773 requests are processed, 194
+j: 563, j_max: 564, k: 459, curr_cost: 872
+99 banks are on, 17833 requests are processed, 195
+j: 558, j_max: 559, k: 442, curr_cost: 845
+100 banks are on, 17893 requests are processed, 196
+j: 586, j_max: 586, k: 406, curr_cost: 828
+103 banks are on, 17956 requests are processed, 197
+j: 506, j_max: 506, k: 365, curr_cost: 791
+103 banks are on, 18010 requests are processed, 198
+j: 447, j_max: 449, k: 326, curr_cost: 746
+103 banks are on, 18058 requests are processed, 199
+j: 488, j_max: 488, k: 396, curr_cost: 738
+108 banks are on, 18110 requests are processed, 200
+j: 508, j_max: 518, k: 501, curr_cost: 706
+111 banks are on, 18164 requests are processed, 201
+j: 462, j_max: 462, k: 483, curr_cost: 659
+112 banks are on, 18213 requests are processed, 202
+j: 413, j_max: 413, k: 431, curr_cost: 638
+112 banks are on, 18257 requests are processed, 203
+j: 398, j_max: 398, k: 425, curr_cost: 622
+113 banks are on, 18299 requests are processed, 204
+j: 393, j_max: 394, k: 459, curr_cost: 610
+115 banks are on, 18341 requests are processed, 205
+j: 403, j_max: 405, k: 485, curr_cost: 588
+116 banks are on, 18384 requests are processed, 206
+j: 394, j_max: 424, k: 495, curr_cost: 545
+115 banks are on, 18426 requests are processed, 207
+j: 385, j_max: 416, k: 508, curr_cost: 521
+116 banks are on, 18467 requests are processed, 208
+j: 380, j_max: 410, k: 495, curr_cost: 506
+117 banks are on, 18508 requests are processed, 209
+j: 380, j_max: 409, k: 512, curr_cost: 481
+117 banks are on, 18548 requests are processed, 210
+j: 374, j_max: 404, k: 506, curr_cost: 473
+118 banks are on, 18588 requests are processed, 211
+j: 375, j_max: 414, k: 486, curr_cost: 452
+118 banks are on, 18628 requests are processed, 212
+j: 376, j_max: 395, k: 512, curr_cost: 450
+120 banks are on, 18668 requests are processed, 213
+j: 354, j_max: 384, k: 512, curr_cost: 444
+120 banks are on, 18706 requests are processed, 214
+j: 347, j_max: 386, k: 505, curr_cost: 435
+120 banks are on, 18743 requests are processed, 215
+j: 338, j_max: 367, k: 512, curr_cost: 434
+121 banks are on, 18779 requests are processed, 216
+j: 355, j_max: 365, k: 501, curr_cost: 435
+123 banks are on, 18817 requests are processed, 217
+j: 336, j_max: 375, k: 493, curr_cost: 417
+122 banks are on, 18853 requests are processed, 218
+j: 336, j_max: 367, k: 511, curr_cost: 419
+123 banks are on, 18889 requests are processed, 219
+j: 357, j_max: 377, k: 493, curr_cost: 423
+125 banks are on, 18927 requests are processed, 220
+j: 361, j_max: 380, k: 487, curr_cost: 426
+126 banks are on, 18966 requests are processed, 221
+j: 362, j_max: 382, k: 505, curr_cost: 419
+126 banks are on, 19005 requests are processed, 222
+j: 362, j_max: 382, k: 512, curr_cost: 409
+126 banks are on, 19044 requests are processed, 223
+j: 352, j_max: 381, k: 512, curr_cost: 390
+125 banks are on, 19082 requests are processed, 224
+j: 349, j_max: 369, k: 500, curr_cost: 399
+126 banks are on, 19120 requests are processed, 225
+j: 356, j_max: 376, k: 500, curr_cost: 394
+126 banks are on, 19158 requests are processed, 226
+j: 353, j_max: 373, k: 493, curr_cost: 391
+126 banks are on, 19196 requests are processed, 227
+j: 356, j_max: 376, k: 512, curr_cost: 388
+126 banks are on, 19234 requests are processed, 228
+j: 345, j_max: 375, k: 483, curr_cost: 373
+125 banks are on, 19271 requests are processed, 229
+j: 352, j_max: 372, k: 491, curr_cost: 385
+126 banks are on, 19309 requests are processed, 230
+j: 356, j_max: 366, k: 492, curr_cost: 392
+127 banks are on, 19347 requests are processed, 231
+j: 346, j_max: 366, k: 484, curr_cost: 381
+126 banks are on, 19384 requests are processed, 232
+j: 361, j_max: 361, k: 511, curr_cost: 400
+128 banks are on, 19423 requests are processed, 233
+j: 345, j_max: 365, k: 458, curr_cost: 378
+126 banks are on, 19460 requests are processed, 234
+j: 343, j_max: 363, k: 477, curr_cost: 376
+126 banks are on, 19497 requests are processed, 235
+j: 346, j_max: 365, k: 477, curr_cost: 375
+126 banks are on, 19534 requests are processed, 236
+j: 365, j_max: 365, k: 512, curr_cost: 394
+128 banks are on, 19573 requests are processed, 237
+j: 337, j_max: 367, k: 506, curr_cost: 363
+125 banks are on, 19609 requests are processed, 238
+j: 355, j_max: 365, k: 485, curr_cost: 382
+127 banks are on, 19647 requests are processed, 239
+j: 357, j_max: 367, k: 496, curr_cost: 381
+127 banks are on, 19685 requests are processed, 240
+j: 340, j_max: 360, k: 469, curr_cost: 370
+126 banks are on, 19722 requests are processed, 241
+j: 352, j_max: 362, k: 496, curr_cost: 380
+127 banks are on, 19760 requests are processed, 242
+j: 342, j_max: 362, k: 488, curr_cost: 370
+126 banks are on, 19797 requests are processed, 243
+j: 356, j_max: 366, k: 496, curr_cost: 380
+127 banks are on, 19835 requests are processed, 244
+j: 343, j_max: 363, k: 462, curr_cost: 370
+126 banks are on, 19872 requests are processed, 245
+j: 353, j_max: 363, k: 488, curr_cost: 380
+127 banks are on, 19910 requests are processed, 246
+j: 354, j_max: 364, k: 463, curr_cost: 380
+127 banks are on, 19948 requests are processed, 247
+j: 334, j_max: 354, k: 454, curr_cost: 370
+126 banks are on, 19984 requests are processed, 248
+j: 358, j_max: 358, k: 452, curr_cost: 389
+128 banks are on, 20022 requests are processed, 249
+j: 348, j_max: 358, k: 463, curr_cost: 378
+127 banks are on, 20059 requests are processed, 250
+j: 343, j_max: 353, k: 481, curr_cost: 377
+127 banks are on, 20096 requests are processed, 251
+j: 336, j_max: 346, k: 492, curr_cost: 376
+127 banks are on, 20132 requests are processed, 252
+j: 337, j_max: 347, k: 455, curr_cost: 374
+127 banks are on, 20168 requests are processed, 253
+j: 336, j_max: 346, k: 474, curr_cost: 372
+127 banks are on, 20204 requests are processed, 254
+j: 335, j_max: 345, k: 491, curr_cost: 370
+127 banks are on, 20240 requests are processed, 255
+j: 338, j_max: 348, k: 454, curr_cost: 368
+127 banks are on, 20276 requests are processed, 256
+j: 343, j_max: 343, k: 481, curr_cost: 376
+128 banks are on, 20313 requests are processed, 257
+j: 335, j_max: 345, k: 510, curr_cost: 364
+127 banks are on, 20349 requests are processed, 258
+j: 334, j_max: 344, k: 491, curr_cost: 363
+127 banks are on, 20385 requests are processed, 259
+j: 331, j_max: 341, k: 454, curr_cost: 362
+127 banks are on, 20421 requests are processed, 260
+j: 333, j_max: 333, k: 499, curr_cost: 371
+128 banks are on, 20457 requests are processed, 261
+j: 332, j_max: 332, k: 462, curr_cost: 369
+128 banks are on, 20493 requests are processed, 262
+j: 324, j_max: 334, k: 454, curr_cost: 358
+127 banks are on, 20528 requests are processed, 263
+j: 304, j_max: 314, k: 454, curr_cost: 357
+127 banks are on, 20561 requests are processed, 264
+j: 314, j_max: 314, k: 386, curr_cost: 364
+128 banks are on, 20595 requests are processed, 265
+j: 314, j_max: 314, k: 405, curr_cost: 361
+128 banks are on, 20629 requests are processed, 266
+j: 316, j_max: 316, k: 405, curr_cost: 358
+128 banks are on, 20663 requests are processed, 267
+j: 314, j_max: 314, k: 414, curr_cost: 355
+128 banks are on, 20697 requests are processed, 268
+j: 314, j_max: 314, k: 414, curr_cost: 352
+128 banks are on, 20731 requests are processed, 269
+j: 316, j_max: 316, k: 414, curr_cost: 349
+128 banks are on, 20765 requests are processed, 270
+j: 317, j_max: 317, k: 388, curr_cost: 346
+128 banks are on, 20799 requests are processed, 271
+j: 316, j_max: 316, k: 388, curr_cost: 344
+128 banks are on, 20833 requests are processed, 272
+j: 317, j_max: 317, k: 388, curr_cost: 342
+128 banks are on, 20867 requests are processed, 273
+j: 315, j_max: 315, k: 388, curr_cost: 340
+128 banks are on, 20901 requests are processed, 274
+j: 313, j_max: 313, k: 388, curr_cost: 340
+128 banks are on, 20935 requests are processed, 275
+j: 315, j_max: 315, k: 388, curr_cost: 340
+128 banks are on, 20969 requests are processed, 276
+j: 313, j_max: 313, k: 388, curr_cost: 340
+128 banks are on, 21003 requests are processed, 277
+j: 313, j_max: 313, k: 381, curr_cost: 340
+128 banks are on, 21037 requests are processed, 278
+j: 312, j_max: 312, k: 362, curr_cost: 340
+128 banks are on, 21071 requests are processed, 279
+j: 311, j_max: 311, k: 362, curr_cost: 340
+128 banks are on, 21105 requests are processed, 280
+j: 312, j_max: 312, k: 325, curr_cost: 340
+128 banks are on, 21139 requests are processed, 281
+j: 312, j_max: 312, k: 299, curr_cost: 340
+128 banks are on, 21173 requests are processed, 282
+j: 314, j_max: 314, k: 273, curr_cost: 340
+128 banks are on, 21207 requests are processed, 283
+j: 313, j_max: 313, k: 273, curr_cost: 340
+128 banks are on, 21241 requests are processed, 284
+j: 313, j_max: 313, k: 273, curr_cost: 340
+128 banks are on, 21275 requests are processed, 285
+j: 316, j_max: 316, k: 273, curr_cost: 340
+128 banks are on, 21309 requests are processed, 286
+j: 313, j_max: 313, k: 273, curr_cost: 340
+128 banks are on, 21343 requests are processed, 287
+j: 316, j_max: 316, k: 273, curr_cost: 340
+128 banks are on, 21377 requests are processed, 288
+j: 318, j_max: 318, k: 254, curr_cost: 340
+128 banks are on, 21411 requests are processed, 289
+j: 314, j_max: 314, k: 254, curr_cost: 340
+128 banks are on, 21445 requests are processed, 290
+j: 313, j_max: 313, k: 254, curr_cost: 340
+128 banks are on, 21479 requests are processed, 291
+j: 306, j_max: 306, k: 254, curr_cost: 340
+128 banks are on, 21512 requests are processed, 292
+j: 293, j_max: 293, k: 254, curr_cost: 339
+128 banks are on, 21544 requests are processed, 293
+j: 293, j_max: 293, k: 198, curr_cost: 337
+128 banks are on, 21576 requests are processed, 294
+j: 291, j_max: 291, k: 197, curr_cost: 335
+128 banks are on, 21608 requests are processed, 295
+j: 293, j_max: 293, k: 197, curr_cost: 333
+128 banks are on, 21640 requests are processed, 296
+j: 292, j_max: 292, k: 197, curr_cost: 331
+128 banks are on, 21672 requests are processed, 297
+j: 290, j_max: 290, k: 196, curr_cost: 329
+128 banks are on, 21704 requests are processed, 298
+j: 290, j_max: 290, k: 170, curr_cost: 327
+128 banks are on, 21736 requests are processed, 299
+j: 294, j_max: 294, k: 144, curr_cost: 325
+128 banks are on, 21768 requests are processed, 300
+j: 290, j_max: 290, k: 144, curr_cost: 323
+128 banks are on, 21800 requests are processed, 301
+j: 293, j_max: 293, k: 144, curr_cost: 321
+128 banks are on, 21832 requests are processed, 302
+j: 289, j_max: 289, k: 143, curr_cost: 320
+128 banks are on, 21864 requests are processed, 303
+j: 291, j_max: 291, k: 143, curr_cost: 320
+128 banks are on, 21896 requests are processed, 304
+j: 293, j_max: 293, k: 143, curr_cost: 320
+128 banks are on, 21928 requests are processed, 305
+j: 293, j_max: 293, k: 143, curr_cost: 320
+128 banks are on, 21960 requests are processed, 306
+j: 291, j_max: 291, k: 143, curr_cost: 320
+128 banks are on, 21992 requests are processed, 307
+j: 289, j_max: 289, k: 143, curr_cost: 320
+128 banks are on, 22024 requests are processed, 308
+j: 291, j_max: 291, k: 143, curr_cost: 320
+128 banks are on, 22056 requests are processed, 309
+j: 292, j_max: 292, k: 143, curr_cost: 320
+128 banks are on, 22088 requests are processed, 310
+j: 292, j_max: 292, k: 143, curr_cost: 320
+128 banks are on, 22120 requests are processed, 311
+j: 292, j_max: 292, k: 143, curr_cost: 320
+128 banks are on, 22152 requests are processed, 312
+j: 291, j_max: 291, k: 143, curr_cost: 320
+128 banks are on, 22184 requests are processed, 313
+j: 289, j_max: 289, k: 143, curr_cost: 320
+128 banks are on, 22216 requests are processed, 314
+j: 289, j_max: 289, k: 143, curr_cost: 320
+128 banks are on, 22248 requests are processed, 315
+j: 292, j_max: 292, k: 143, curr_cost: 320
+128 banks are on, 22280 requests are processed, 316
+j: 289, j_max: 289, k: 143, curr_cost: 320
+128 banks are on, 22312 requests are processed, 317
+j: 289, j_max: 289, k: 143, curr_cost: 320
+128 banks are on, 22344 requests are processed, 318
+j: 291, j_max: 291, k: 143, curr_cost: 320
+128 banks are on, 22376 requests are processed, 319
+j: 293, j_max: 293, k: 136, curr_cost: 320
+128 banks are on, 22408 requests are processed, 320
+j: 292, j_max: 292, k: 136, curr_cost: 320
+128 banks are on, 22440 requests are processed, 321
+j: 290, j_max: 290, k: 136, curr_cost: 320
+128 banks are on, 22472 requests are processed, 322
+j: 291, j_max: 291, k: 136, curr_cost: 320
+128 banks are on, 22504 requests are processed, 323
+j: 290, j_max: 290, k: 136, curr_cost: 320
+128 banks are on, 22536 requests are processed, 324
+j: 293, j_max: 293, k: 136, curr_cost: 320
+128 banks are on, 22568 requests are processed, 325
+j: 284, j_max: 284, k: 136, curr_cost: 320
+128 banks are on, 22599 requests are processed, 326
+j: 284, j_max: 284, k: 136, curr_cost: 319
+128 banks are on, 22630 requests are processed, 327
+j: 285, j_max: 285, k: 136, curr_cost: 318
+128 banks are on, 22661 requests are processed, 328
+j: 281, j_max: 281, k: 136, curr_cost: 317
+128 banks are on, 22692 requests are processed, 329
+j: 283, j_max: 283, k: 136, curr_cost: 316
+128 banks are on, 22723 requests are processed, 330
+j: 285, j_max: 285, k: 136, curr_cost: 315
+128 banks are on, 22754 requests are processed, 331
+j: 284, j_max: 284, k: 136, curr_cost: 314
+128 banks are on, 22785 requests are processed, 332
+j: 282, j_max: 282, k: 136, curr_cost: 313
+128 banks are on, 22816 requests are processed, 333
+j: 283, j_max: 283, k: 135, curr_cost: 312
+128 banks are on, 22847 requests are processed, 334
+j: 282, j_max: 282, k: 135, curr_cost: 311
+128 banks are on, 22878 requests are processed, 335
+j: 283, j_max: 283, k: 135, curr_cost: 310
+128 banks are on, 22909 requests are processed, 336
+j: 284, j_max: 284, k: 121, curr_cost: 310
+128 banks are on, 22940 requests are processed, 337
+j: 283, j_max: 283, k: 121, curr_cost: 310
+128 banks are on, 22971 requests are processed, 338
+j: 285, j_max: 285, k: 119, curr_cost: 310
+128 banks are on, 23002 requests are processed, 339
+j: 287, j_max: 287, k: 119, curr_cost: 310
+128 banks are on, 23033 requests are processed, 340
+j: 283, j_max: 283, k: 119, curr_cost: 310
+128 banks are on, 23064 requests are processed, 341
+j: 285, j_max: 285, k: 119, curr_cost: 310
+128 banks are on, 23095 requests are processed, 342
+j: 286, j_max: 286, k: 119, curr_cost: 310
+128 banks are on, 23126 requests are processed, 343
+j: 280, j_max: 280, k: 119, curr_cost: 310
+128 banks are on, 23157 requests are processed, 344
+j: 282, j_max: 282, k: 119, curr_cost: 310
+128 banks are on, 23188 requests are processed, 345
+j: 285, j_max: 285, k: 119, curr_cost: 310
+128 banks are on, 23219 requests are processed, 346
+j: 285, j_max: 285, k: 119, curr_cost: 310
+128 banks are on, 23250 requests are processed, 347
+j: 283, j_max: 283, k: 119, curr_cost: 310
+128 banks are on, 23281 requests are processed, 348
+j: 285, j_max: 285, k: 119, curr_cost: 310
+128 banks are on, 23312 requests are processed, 349
+j: 277, j_max: 277, k: 119, curr_cost: 310
+128 banks are on, 23342 requests are processed, 350
+j: 273, j_max: 273, k: 111, curr_cost: 309
+128 banks are on, 23372 requests are processed, 351
+j: 274, j_max: 274, k: 111, curr_cost: 308
+128 banks are on, 23402 requests are processed, 352
+j: 276, j_max: 276, k: 111, curr_cost: 307
+128 banks are on, 23432 requests are processed, 353
+j: 275, j_max: 275, k: 111, curr_cost: 306
+128 banks are on, 23462 requests are processed, 354
+j: 276, j_max: 276, k: 111, curr_cost: 305
+128 banks are on, 23492 requests are processed, 355
+j: 275, j_max: 275, k: 104, curr_cost: 304
+128 banks are on, 23522 requests are processed, 356
+j: 278, j_max: 278, k: 103, curr_cost: 303
+128 banks are on, 23552 requests are processed, 357
+j: 276, j_max: 276, k: 102, curr_cost: 302
+128 banks are on, 23582 requests are processed, 358
+j: 275, j_max: 275, k: 95, curr_cost: 301
+128 banks are on, 23612 requests are processed, 359
+j: 278, j_max: 278, k: 95, curr_cost: 300
+128 banks are on, 23642 requests are processed, 360
+j: 275, j_max: 275, k: 94, curr_cost: 300
+128 banks are on, 23672 requests are processed, 361
+j: 267, j_max: 267, k: 94, curr_cost: 300
+128 banks are on, 23701 requests are processed, 362
+j: 263, j_max: 263, k: 86, curr_cost: 299
+128 banks are on, 23730 requests are processed, 363
+j: 269, j_max: 269, k: 86, curr_cost: 298
+128 banks are on, 23759 requests are processed, 364
+j: 266, j_max: 266, k: 86, curr_cost: 297
+128 banks are on, 23788 requests are processed, 365
+j: 268, j_max: 268, k: 86, curr_cost: 296
+128 banks are on, 23817 requests are processed, 366
+j: 268, j_max: 268, k: 86, curr_cost: 295
+128 banks are on, 23846 requests are processed, 367
+j: 267, j_max: 267, k: 86, curr_cost: 294
+128 banks are on, 23875 requests are processed, 368
+j: 266, j_max: 266, k: 86, curr_cost: 293
+128 banks are on, 23904 requests are processed, 369
+j: 267, j_max: 267, k: 79, curr_cost: 292
+128 banks are on, 23933 requests are processed, 370
+j: 264, j_max: 264, k: 79, curr_cost: 291
+128 banks are on, 23962 requests are processed, 371
+j: 270, j_max: 270, k: 78, curr_cost: 290
+128 banks are on, 23991 requests are processed, 372
+j: 268, j_max: 268, k: 78, curr_cost: 290
+128 banks are on, 24020 requests are processed, 373
+j: 260, j_max: 260, k: 78, curr_cost: 290
+128 banks are on, 24048 requests are processed, 374
+j: 262, j_max: 262, k: 70, curr_cost: 289
+128 banks are on, 24076 requests are processed, 375
+j: 248, j_max: 248, k: 70, curr_cost: 288
+128 banks are on, 24103 requests are processed, 376
+j: 249, j_max: 249, k: 62, curr_cost: 286
+128 banks are on, 24130 requests are processed, 377
+j: 241, j_max: 241, k: 55, curr_cost: 284
+128 banks are on, 24156 requests are processed, 378
+j: 231, j_max: 231, k: 46, curr_cost: 281
+128 banks are on, 24181 requests are processed, 379
+j: 229, j_max: 229, k: 38, curr_cost: 277
+128 banks are on, 24206 requests are processed, 380
+j: 212, j_max: 212, k: 30, curr_cost: 273
+128 banks are on, 24229 requests are processed, 381
+j: 211, j_max: 211, k: 20, curr_cost: 267
+128 banks are on, 24252 requests are processed, 382
+j: 212, j_max: 212, k: 19, curr_cost: 261
+128 banks are on, 24275 requests are processed, 383
+j: 184, j_max: 184, k: 10, curr_cost: 255
+128 banks are on, 24295 requests are processed, 384
+j: 182, j_max: 182, k: 8, curr_cost: 247
+128 banks are on, 24315 requests are processed, 385
+j: 182, j_max: 182, k: 6, curr_cost: 239
+128 banks are on, 24335 requests are processed, 386
+j: 154, j_max: 154, k: 5, curr_cost: 232
+128 banks are on, 24352 requests are processed, 387
+j: 136, j_max: 136, k: 4, curr_cost: 222
+128 banks are on, 24367 requests are processed, 388
+j: 135, j_max: 135, k: 3, curr_cost: 211
+128 banks are on, 24382 requests are processed, 389
+j: 126, j_max: 126, k: 2, curr_cost: 201
+128 banks are on, 24396 requests are processed, 390
+j: 126, j_max: 126, k: 0, curr_cost: 190
+128 banks are on, 24410 requests are processed, 391
+j: 126, j_max: 126, k: 0, curr_cost: 181
+128 banks are on, 24424 requests are processed, 392
+j: 126, j_max: 126, k: 0, curr_cost: 172
+128 banks are on, 24438 requests are processed, 393
+j: 126, j_max: 126, k: 0, curr_cost: 163
+128 banks are on, 24452 requests are processed, 394
+j: 126, j_max: 126, k: 0, curr_cost: 157
+128 banks are on, 24466 requests are processed, 395
+j: 108, j_max: 108, k: 0, curr_cost: 151
+128 banks are on, 24478 requests are processed, 396
+j: 99, j_max: 99, k: 0, curr_cost: 143
+128 banks are on, 24489 requests are processed, 397
+j: 99, j_max: 99, k: 0, curr_cost: 137
+128 banks are on, 24500 requests are processed, 398
+j: 90, j_max: 90, k: 0, curr_cost: 133
+128 banks are on, 24510 requests are processed, 399
+j: 81, j_max: 81, k: 0, curr_cost: 128
+128 banks are on, 24519 requests are processed, 400
+j: 81, j_max: 81, k: 0, curr_cost: 123
+128 banks are on, 24528 requests are processed, 401
+j: 72, j_max: 72, k: 0, curr_cost: 118
+128 banks are on, 24536 requests are processed, 402
+j: 54, j_max: 54, k: 0, curr_cost: 112
+128 banks are on, 24542 requests are processed, 403
+j: 45, j_max: 45, k: 0, curr_cost: 104
+128 banks are on, 24547 requests are processed, 404
+j: 36, j_max: 36, k: 0, curr_cost: 95
+128 banks are on, 24551 requests are processed, 405
+j: 27, j_max: 27, k: 0, curr_cost: 85
+128 banks are on, 24554 requests are processed, 406
+j: 27, j_max: 27, k: 0, curr_cost: 76
+128 banks are on, 24557 requests are processed, 407
+j: 18, j_max: 18, k: 0, curr_cost: 68
+128 banks are on, 24559 requests are processed, 408
+j: 18, j_max: 18, k: 0, curr_cost: 59
+128 banks are on, 24561 requests are processed, 409
+j: 18, j_max: 18, k: 0, curr_cost: 51
+128 banks are on, 24563 requests are processed, 410
+j: 18, j_max: 18, k: 0, curr_cost: 44
+128 banks are on, 24565 requests are processed, 411
+j: 18, j_max: 18, k: 0, curr_cost: 37
+128 banks are on, 24567 requests are processed, 412
+j: 18, j_max: 18, k: 0, curr_cost: 31
+128 banks are on, 24569 requests are processed, 413
+j: 18, j_max: 18, k: 0, curr_cost: 27
+128 banks are on, 24571 requests are processed, 414
+j: 18, j_max: 18, k: 0, curr_cost: 24
+128 banks are on, 24573 requests are processed, 415
+j: 18, j_max: 18, k: 0, curr_cost: 22
+128 banks are on, 24575 requests are processed, 416
+Total number of cycles: 417
+Average number of banks that are on: 110.04
+Segmentation fault (core dumped)

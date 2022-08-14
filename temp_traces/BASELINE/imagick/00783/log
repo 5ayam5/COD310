@@ -1,0 +1,44 @@
+warning: layer configuration file specified. overriding default floorplan with those in lcf file...
+0, 42.59, 0
+128 banks are on, 128 requests are processed, 23.62
+0, 42.63, 1
+128 banks are on, 256 requests are processed, 22.07
+0, 42.64, 2
+128 banks are on, 384 requests are processed, 23.90
+0, 42.66, 3
+128 banks are on, 512 requests are processed, 23.93
+0, 42.68, 4
+128 banks are on, 640 requests are processed, 23.96
+0, 42.70, 5
+128 banks are on, 768 requests are processed, 23.97
+0, 42.71, 6
+128 banks are on, 896 requests are processed, 23.89
+0, 42.73, 7
+128 banks are on, 1024 requests are processed, 23.90
+0, 42.74, 8
+128 banks are on, 1152 requests are processed, 21.81
+0, 42.74, 9
+128 banks are on, 1280 requests are processed, 23.94
+0, 42.75, 10
+128 banks are on, 1408 requests are processed, 23.97
+0, 42.77, 11
+128 banks are on, 1536 requests are processed, 23.96
+0, 42.77, 12
+128 banks are on, 1664 requests are processed, 23.95
+0, 42.78, 13
+128 banks are on, 1792 requests are processed, 24.07
+0, 42.79, 14
+128 banks are on, 1920 requests are processed, 22.09
+0, 42.79, 15
+128 banks are on, 2048 requests are processed, 24.09
+0, 42.80, 16
+128 banks are on, 2176 requests are processed, 24.12
+0, 42.81, 17
+128 banks are on, 2304 requests are processed, 24.12
+0, 42.81, 18
+128 banks are on, 2432 requests are processed, 24.14
+0, 42.82, 19
+128 banks are on, 2560 requests are processed, 24.15
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+Segmentation fault (core dumped)

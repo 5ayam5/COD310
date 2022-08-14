@@ -1,0 +1,464 @@
+warning: layer configuration file specified. overriding default floorplan with those in lcf file...
+0, 42.59, 0
+99 banks are on, 99 requests are processed, -1.00
+0, 42.44, 1
+98 banks are on, 197 requests are processed, -1.00
+0, 42.28, 2
+97 banks are on, 294 requests are processed, -1.00
+0, 42.12, 3
+96 banks are on, 390 requests are processed, -1.00
+0, 41.97, 4
+95 banks are on, 485 requests are processed, -1.00
+0, 41.83, 5
+95 banks are on, 580 requests are processed, -1.00
+0, 41.69, 6
+94 banks are on, 674 requests are processed, -1.00
+0, 41.56, 7
+93 banks are on, 767 requests are processed, -1.00
+0, 41.44, 8
+94 banks are on, 861 requests are processed, -1.00
+0, 41.40, 9
+94 banks are on, 955 requests are processed, -1.00
+0, 41.35, 10
+94 banks are on, 1049 requests are processed, -1.00
+0, 41.31, 11
+94 banks are on, 1143 requests are processed, -1.00
+0, 41.29, 12
+94 banks are on, 1237 requests are processed, -1.00
+0, 41.26, 13
+94 banks are on, 1331 requests are processed, -1.00
+0, 41.25, 14
+94 banks are on, 1425 requests are processed, -1.00
+0, 41.25, 15
+94 banks are on, 1519 requests are processed, -1.00
+0, 41.24, 16
+94 banks are on, 1613 requests are processed, -1.00
+0, 41.24, 17
+94 banks are on, 1707 requests are processed, -1.00
+0, 41.23, 18
+94 banks are on, 1801 requests are processed, -1.00
+0, 41.23, 19
+94 banks are on, 1895 requests are processed, -1.00
+0, 41.22, 20
+94 banks are on, 1989 requests are processed, -1.00
+0, 41.22, 21
+94 banks are on, 2083 requests are processed, -1.00
+0, 41.21, 22
+94 banks are on, 2177 requests are processed, -1.00
+0, 41.21, 23
+94 banks are on, 2271 requests are processed, -1.00
+0, 41.20, 24
+94 banks are on, 2365 requests are processed, -1.00
+0, 41.20, 25
+94 banks are on, 2459 requests are processed, -1.00
+0, 41.19, 26
+94 banks are on, 2553 requests are processed, -1.00
+0, 41.19, 27
+94 banks are on, 2647 requests are processed, -1.00
+0, 41.18, 28
+94 banks are on, 2741 requests are processed, -1.00
+0, 41.18, 29
+94 banks are on, 2835 requests are processed, -1.00
+0, 41.17, 30
+94 banks are on, 2929 requests are processed, -1.00
+0, 41.17, 31
+94 banks are on, 3023 requests are processed, -1.00
+0, 41.16, 32
+94 banks are on, 3117 requests are processed, -1.00
+0, 41.16, 33
+94 banks are on, 3211 requests are processed, -1.00
+0, 41.16, 34
+94 banks are on, 3305 requests are processed, -1.00
+0, 41.15, 35
+94 banks are on, 3399 requests are processed, -1.00
+0, 41.15, 36
+93 banks are on, 3492 requests are processed, -1.00
+0, 41.14, 37
+94 banks are on, 3586 requests are processed, -1.00
+0, 41.14, 38
+94 banks are on, 3680 requests are processed, -1.00
+0, 41.14, 39
+94 banks are on, 3774 requests are processed, -1.00
+0, 41.14, 40
+93 banks are on, 3867 requests are processed, -1.00
+0, 41.13, 41
+94 banks are on, 3961 requests are processed, -1.00
+0, 41.13, 42
+94 banks are on, 4055 requests are processed, -1.00
+0, 41.13, 43
+93 banks are on, 4148 requests are processed, -1.00
+0, 41.13, 44
+93 banks are on, 4241 requests are processed, -1.00
+0, 41.13, 45
+93 banks are on, 4334 requests are processed, -1.00
+0, 41.13, 46
+94 banks are on, 4428 requests are processed, -1.00
+0, 41.12, 47
+94 banks are on, 4522 requests are processed, 0.02
+0, 41.13, 48
+93 banks are on, 4615 requests are processed, -1.00
+0, 41.12, 49
+93 banks are on, 4708 requests are processed, -1.00
+0, 41.12, 50
+93 banks are on, 4801 requests are processed, -1.00
+0, 41.12, 51
+93 banks are on, 4894 requests are processed, -1.00
+0, 41.12, 52
+94 banks are on, 4988 requests are processed, 0.02
+0, 41.12, 53
+93 banks are on, 5081 requests are processed, -1.00
+0, 41.12, 54
+94 banks are on, 5175 requests are processed, 0.01
+0, 41.12, 55
+93 banks are on, 5268 requests are processed, -1.00
+0, 41.11, 56
+93 banks are on, 5361 requests are processed, -1.00
+0, 41.11, 57
+93 banks are on, 5454 requests are processed, -1.00
+0, 41.11, 58
+93 banks are on, 5547 requests are processed, -1.00
+0, 41.11, 59
+93 banks are on, 5640 requests are processed, -1.00
+0, 41.11, 60
+93 banks are on, 5733 requests are processed, -1.00
+0, 41.11, 61
+93 banks are on, 5826 requests are processed, -1.00
+0, 41.11, 62
+93 banks are on, 5919 requests are processed, -1.00
+0, 41.11, 63
+94 banks are on, 6013 requests are processed, 0.01
+0, 41.11, 64
+93 banks are on, 6106 requests are processed, -1.00
+0, 41.11, 65
+93 banks are on, 6199 requests are processed, -1.00
+0, 41.11, 66
+93 banks are on, 6292 requests are processed, -1.00
+0, 41.11, 67
+93 banks are on, 6385 requests are processed, -1.00
+0, 41.10, 68
+93 banks are on, 6478 requests are processed, 0.43
+0, 41.11, 69
+93 banks are on, 6571 requests are processed, -1.00
+0, 41.10, 70
+93 banks are on, 6664 requests are processed, -1.00
+0, 41.10, 71
+93 banks are on, 6757 requests are processed, -1.00
+0, 41.10, 72
+93 banks are on, 6850 requests are processed, 0.42
+0, 41.11, 73
+93 banks are on, 6943 requests are processed, -1.00
+0, 41.11, 74
+93 banks are on, 7036 requests are processed, -1.00
+0, 41.10, 75
+93 banks are on, 7129 requests are processed, -1.00
+0, 41.10, 76
+93 banks are on, 7222 requests are processed, -1.00
+0, 41.10, 77
+93 banks are on, 7315 requests are processed, 0.43
+0, 41.10, 78
+93 banks are on, 7408 requests are processed, -1.00
+0, 41.10, 79
+93 banks are on, 7501 requests are processed, -1.00
+0, 41.10, 80
+93 banks are on, 7594 requests are processed, -1.00
+0, 41.10, 81
+93 banks are on, 7687 requests are processed, -1.00
+0, 41.10, 82
+93 banks are on, 7780 requests are processed, -1.00
+0, 41.10, 83
+93 banks are on, 7873 requests are processed, 0.37
+0, 41.10, 84
+93 banks are on, 7966 requests are processed, 0.39
+0, 41.10, 85
+93 banks are on, 8059 requests are processed, -1.00
+0, 41.10, 86
+93 banks are on, 8152 requests are processed, -1.00
+0, 41.10, 87
+93 banks are on, 8245 requests are processed, -1.00
+0, 41.10, 88
+93 banks are on, 8338 requests are processed, -1.00
+0, 41.10, 89
+93 banks are on, 8431 requests are processed, -1.00
+0, 41.10, 90
+93 banks are on, 8524 requests are processed, -1.00
+0, 41.10, 91
+93 banks are on, 8617 requests are processed, 0.42
+0, 41.10, 92
+93 banks are on, 8710 requests are processed, -1.00
+0, 41.10, 93
+93 banks are on, 8803 requests are processed, -1.00
+0, 41.10, 94
+93 banks are on, 8896 requests are processed, -1.00
+0, 41.10, 95
+93 banks are on, 8989 requests are processed, 0.41
+0, 41.10, 96
+93 banks are on, 9082 requests are processed, -1.00
+0, 41.10, 97
+93 banks are on, 9175 requests are processed, -1.00
+0, 41.09, 98
+92 banks are on, 9267 requests are processed, 0.86
+0, 41.10, 99
+93 banks are on, 9360 requests are processed, -1.00
+0, 41.10, 100
+93 banks are on, 9453 requests are processed, -1.00
+0, 41.10, 101
+93 banks are on, 9546 requests are processed, -1.00
+0, 41.09, 102
+91 banks are on, 9637 requests are processed, 1.35
+0, 41.10, 103
+93 banks are on, 9730 requests are processed, -1.00
+0, 41.10, 104
+93 banks are on, 9823 requests are processed, -1.00
+0, 41.09, 105
+89 banks are on, 9912 requests are processed, 2.21
+0, 41.10, 106
+93 banks are on, 10005 requests are processed, -1.00
+0, 41.10, 107
+93 banks are on, 10098 requests are processed, -1.00
+0, 41.10, 108
+93 banks are on, 10191 requests are processed, -1.00
+0, 41.09, 109
+92 banks are on, 10283 requests are processed, 0.87
+0, 41.10, 110
+93 banks are on, 10376 requests are processed, -1.00
+0, 41.10, 111
+93 banks are on, 10469 requests are processed, -1.00
+0, 41.10, 112
+92 banks are on, 10510 requests are processed, 23.54
+0, 41.17, 113
+97 banks are on, 10555 requests are processed, 21.84
+0, 41.27, 114
+110 banks are on, 10613 requests are processed, 16.09
+0, 41.33, 115
+104 banks are on, 10663 requests are processed, 19.81
+0, 41.40, 116
+113 banks are on, 10721 requests are processed, 16.26
+0, 41.45, 117
+118 banks are on, 10781 requests are processed, 15.38
+0, 41.46, 118
+114 banks are on, 10835 requests are processed, 18.11
+0, 41.51, 119
+121 banks are on, 10895 requests are processed, 15.42
+0, 41.52, 120
+121 banks are on, 10943 requests are processed, 20.53
+0, 41.54, 121
+122 banks are on, 10992 requests are processed, 20.11
+0, 41.56, 122
+126 banks are on, 11038 requests are processed, 21.25
+0, 41.56, 123
+123 banks are on, 11080 requests are processed, 23.04
+0, 41.59, 124
+128 banks are on, 11125 requests are processed, 21.63
+0, 41.59, 125
+124 banks are on, 11161 requests are processed, 25.53
+0, 41.62, 126
+128 banks are on, 11200 requests are processed, 24.15
+0, 41.63, 127
+124 banks are on, 11234 requests are processed, 26.44
+0, 41.66, 128
+128 banks are on, 11271 requests are processed, 25.12
+0, 41.67, 129
+127 banks are on, 11307 requests are processed, 25.60
+0, 41.69, 130
+127 banks are on, 11342 requests are processed, 26.06
+0, 41.71, 131
+128 banks are on, 11378 requests are processed, 25.62
+0, 41.73, 132
+128 banks are on, 11413 requests are processed, 26.11
+0, 41.75, 133
+128 banks are on, 11448 requests are processed, 26.14
+0, 41.77, 134
+128 banks are on, 11483 requests are processed, 26.15
+0, 41.78, 135
+128 banks are on, 11518 requests are processed, 26.18
+0, 41.80, 136
+128 banks are on, 11553 requests are processed, 26.23
+0, 41.81, 137
+128 banks are on, 11588 requests are processed, 26.26
+0, 41.83, 138
+128 banks are on, 11623 requests are processed, 26.28
+0, 41.84, 139
+128 banks are on, 11658 requests are processed, 26.29
+0, 41.85, 140
+128 banks are on, 11693 requests are processed, 26.31
+0, 41.87, 141
+128 banks are on, 11728 requests are processed, 26.31
+0, 41.88, 142
+128 banks are on, 11763 requests are processed, 26.35
+0, 41.89, 143
+128 banks are on, 11798 requests are processed, 26.36
+0, 41.90, 144
+128 banks are on, 11833 requests are processed, 26.37
+0, 41.91, 145
+128 banks are on, 11868 requests are processed, 26.39
+0, 41.91, 146
+128 banks are on, 11902 requests are processed, 26.80
+0, 41.92, 147
+128 banks are on, 11936 requests are processed, 26.82
+0, 41.93, 148
+128 banks are on, 11970 requests are processed, 26.83
+0, 41.94, 149
+128 banks are on, 12004 requests are processed, 26.85
+0, 41.94, 150
+128 banks are on, 12038 requests are processed, 26.86
+0, 41.95, 151
+128 banks are on, 12072 requests are processed, 26.86
+0, 41.96, 152
+128 banks are on, 12106 requests are processed, 26.86
+0, 41.96, 153
+128 banks are on, 12140 requests are processed, 26.86
+0, 41.97, 154
+128 banks are on, 12174 requests are processed, 26.88
+0, 41.97, 155
+128 banks are on, 12208 requests are processed, 26.88
+0, 41.98, 156
+128 banks are on, 12242 requests are processed, 26.92
+0, 41.98, 157
+128 banks are on, 12276 requests are processed, 26.90
+0, 41.99, 158
+128 banks are on, 12310 requests are processed, 26.91
+0, 41.99, 159
+128 banks are on, 12344 requests are processed, 26.92
+0, 42.00, 160
+128 banks are on, 12378 requests are processed, 26.93
+0, 42.00, 161
+128 banks are on, 12412 requests are processed, 26.93
+0, 42.00, 162
+128 banks are on, 12446 requests are processed, 26.93
+0, 42.01, 163
+128 banks are on, 12480 requests are processed, 26.93
+0, 42.01, 164
+128 banks are on, 12514 requests are processed, 26.95
+0, 42.01, 165
+128 banks are on, 12548 requests are processed, 26.95
+0, 42.02, 166
+128 banks are on, 12582 requests are processed, 26.94
+0, 42.02, 167
+128 banks are on, 12616 requests are processed, 26.94
+0, 42.02, 168
+128 banks are on, 12650 requests are processed, 26.94
+0, 42.03, 169
+128 banks are on, 12684 requests are processed, 26.96
+0, 42.03, 170
+128 banks are on, 12718 requests are processed, 26.97
+0, 42.03, 171
+128 banks are on, 12752 requests are processed, 26.97
+0, 42.03, 172
+128 banks are on, 12786 requests are processed, 26.98
+0, 42.03, 173
+128 banks are on, 12820 requests are processed, 26.99
+0, 42.04, 174
+128 banks are on, 12854 requests are processed, 26.95
+0, 42.04, 175
+128 banks are on, 12888 requests are processed, 26.98
+0, 42.04, 176
+128 banks are on, 12922 requests are processed, 27.00
+0, 42.04, 177
+128 banks are on, 12956 requests are processed, 27.00
+0, 42.04, 178
+128 banks are on, 12990 requests are processed, 26.98
+0, 42.05, 179
+128 banks are on, 13024 requests are processed, 27.01
+0, 42.05, 180
+128 banks are on, 13058 requests are processed, 27.01
+0, 42.05, 181
+128 banks are on, 13092 requests are processed, 27.01
+0, 42.05, 182
+128 banks are on, 13126 requests are processed, 27.00
+0, 42.05, 183
+128 banks are on, 13160 requests are processed, 27.01
+0, 42.05, 184
+128 banks are on, 13194 requests are processed, 27.02
+0, 42.06, 185
+128 banks are on, 13228 requests are processed, 27.01
+0, 42.06, 186
+128 banks are on, 13262 requests are processed, 27.01
+0, 42.06, 187
+128 banks are on, 13296 requests are processed, 27.02
+0, 42.06, 188
+128 banks are on, 13330 requests are processed, 27.01
+0, 42.06, 189
+128 banks are on, 13364 requests are processed, 27.02
+0, 42.06, 190
+128 banks are on, 13398 requests are processed, 27.02
+0, 42.06, 191
+128 banks are on, 13431 requests are processed, 27.44
+0, 42.06, 192
+128 banks are on, 13464 requests are processed, 27.45
+0, 42.07, 193
+128 banks are on, 13497 requests are processed, 27.45
+0, 42.07, 194
+128 banks are on, 13530 requests are processed, 27.45
+0, 42.07, 195
+128 banks are on, 13563 requests are processed, 27.46
+0, 42.07, 196
+128 banks are on, 13596 requests are processed, 27.47
+0, 42.07, 197
+128 banks are on, 13629 requests are processed, 27.43
+0, 42.07, 198
+128 banks are on, 13662 requests are processed, 27.46
+0, 42.08, 199
+128 banks are on, 13695 requests are processed, 27.46
+0, 42.08, 200
+128 banks are on, 13728 requests are processed, 27.43
+0, 42.08, 201
+128 banks are on, 13761 requests are processed, 27.44
+0, 42.08, 202
+128 banks are on, 13794 requests are processed, 27.44
+0, 42.08, 203
+128 banks are on, 13827 requests are processed, 27.46
+0, 42.08, 204
+128 banks are on, 13860 requests are processed, 27.45
+0, 42.08, 205
+128 banks are on, 13893 requests are processed, 27.47
+0, 42.08, 206
+128 banks are on, 13926 requests are processed, 27.46
+0, 42.08, 207
+128 banks are on, 13959 requests are processed, 27.46
+0, 42.09, 208
+128 banks are on, 13992 requests are processed, 27.47
+0, 42.09, 209
+128 banks are on, 14024 requests are processed, 27.86
+0, 42.09, 210
+128 banks are on, 14055 requests are processed, 28.31
+0, 42.09, 211
+128 banks are on, 14086 requests are processed, 28.33
+0, 42.10, 212
+128 banks are on, 14117 requests are processed, 28.31
+0, 42.10, 213
+128 banks are on, 14146 requests are processed, 29.22
+0, 42.11, 214
+128 banks are on, 14173 requests are processed, 30.13
+0, 42.13, 215
+128 banks are on, 14194 requests are processed, 32.80
+0, 42.16, 216
+128 banks are on, 14210 requests are processed, 35.04
+0, 42.21, 217
+128 banks are on, 14226 requests are processed, 35.12
+0, 42.26, 218
+128 banks are on, 14242 requests are processed, 35.19
+0, 42.30, 219
+128 banks are on, 14258 requests are processed, 35.23
+0, 42.34, 220
+128 banks are on, 14274 requests are processed, 35.30
+0, 42.38, 221
+128 banks are on, 14289 requests are processed, 35.76
+0, 42.41, 222
+128 banks are on, 14301 requests are processed, 37.13
+0, 42.46, 223
+128 banks are on, 14309 requests are processed, 38.94
+0, 42.51, 224
+128 banks are on, 14315 requests are processed, 39.89
+0, 42.57, 225
+128 banks are on, 14320 requests are processed, 40.38
+0, 42.63, 226
+128 banks are on, 14324 requests are processed, 40.87
+0, 42.68, 227
+128 banks are on, 14328 requests are processed, 40.93
+0, 42.72, 228
+128 banks are on, 14332 requests are processed, 40.99
+0, 42.76, 229
+128 banks are on, 14335 requests are processed, 41.46
+Total number of cycles: 230
+Average number of banks that are on: 110.38
+Segmentation fault (core dumped)

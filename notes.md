@@ -144,7 +144,7 @@ $$\underset{r}\max\ {T_r} \leq T_M$$
 ## Meeting on 29 December 2021
 1. Simulating for HBM2 isn't possible right now because of different memory size of the bank and different area than HBM 
 
-## Initial Algorithm Sketch
+## Initial Algorithm Sketch - RL Based
 
 ### Assumption
 1. Only two power states are considered: $p_{low}, p_{high}$ ($p_{low}$ is power when just storing the value, $p_{high}$ is power when bank being read from or written to).
@@ -176,3 +176,31 @@ $$priority_T(bank_i) = priority(bank_i) - temp(bank_i)\times t_p - \max(temp(nei
 This is parameterised by $c, r_b, r_c, w_b, w_c, t_p, t_p', neighbours(\cdot)$. We can be flexible with the definition of $neighbours$ for different banks to accommodate the temperature contributions of neighbours.
 
 These parameters can be computed using an RL algorithm or can be computed analytically looking at the contributions of each parameter to the temperature of the banks and IPS of the cores.
+
+## Knapsack Based Algorithm
+
+### Points
+1. The algorithm uses two constraints - one for power budget and one for temperature
+1. The approach can be extended to incorporate multiple power states
+
+### Algorithm Sketch
+1. Number of "bags" = n (number of banks)
+1. Budget 1 = P (power budget)
+1. $w_{1i} = p_i$ (power consumed by bank $i$ if it is turned on)
+1. Budget 2 = $T_X$ (experimentally determined value)
+1. $w_{2i} = \alpha T_i + (1-\alpha)f(i)$, if $T_i < T_{threshold}$ else $\infty$ ($f(i)$ is weighted average of temperature of neighbours)
+1. $c_i = activity_i$ (the cost of each bank is the memory activity)
+
+### Time Complexity of Algorithm
+1. Since we have two constraints, the time complexity will be $O(n \times P \times T_X)$ for solving the knapsack
+1. The time complexity for computing $w_{1i}$ will be $O(n)$ since the power is directly obtained
+1. Complexity to compute $w_{2i}$ will be $O(n \times \epsilon)$ where $\epsilon$ is average degree of the banks (degree = number of neighbours)
+1. Complexity to compute $c_i$ will be $O(n)$ since the value is incremented on every memory operation (we just need to have a counter and a queue for each bank)
+
+Total complexity of the algorithm is: $O(n \times P \times T_X + n \times (2 + \epsilon))$
+
+## Meeting on 12 May
+1. Different leakage powers for different states
+1. Transition power needs to be accounted?
+1. Multiple power states isn't straight forward and further thought needs to be given
+1. Scaling factor needs to be used as a parameter for the knapsack algorithm

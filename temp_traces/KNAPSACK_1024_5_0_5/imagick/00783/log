@@ -1,0 +1,44 @@
+warning: layer configuration file specified. overriding default floorplan with those in lcf file...
+j: 463, j_max: 463, k: 0, curr_cost: 128
+128 banks are on, 128 requests are processed, 0
+j: 496, j_max: 496, k: 0, curr_cost: 256
+128 banks are on, 256 requests are processed, 1
+j: 452, j_max: 452, k: 0, curr_cost: 384
+128 banks are on, 384 requests are processed, 2
+j: 451, j_max: 451, k: 0, curr_cost: 512
+128 banks are on, 512 requests are processed, 3
+j: 452, j_max: 452, k: 0, curr_cost: 640
+128 banks are on, 640 requests are processed, 4
+j: 449, j_max: 449, k: 0, curr_cost: 640
+128 banks are on, 768 requests are processed, 5
+j: 458, j_max: 458, k: 0, curr_cost: 640
+128 banks are on, 896 requests are processed, 6
+j: 459, j_max: 459, k: 0, curr_cost: 640
+128 banks are on, 1024 requests are processed, 7
+j: 508, j_max: 508, k: 0, curr_cost: 640
+128 banks are on, 1152 requests are processed, 8
+j: 454, j_max: 454, k: 0, curr_cost: 640
+128 banks are on, 1280 requests are processed, 9
+j: 456, j_max: 456, k: 0, curr_cost: 640
+128 banks are on, 1408 requests are processed, 10
+j: 458, j_max: 458, k: 0, curr_cost: 640
+128 banks are on, 1536 requests are processed, 11
+j: 460, j_max: 460, k: 0, curr_cost: 640
+128 banks are on, 1664 requests are processed, 12
+j: 450, j_max: 450, k: 0, curr_cost: 640
+128 banks are on, 1792 requests are processed, 13
+j: 506, j_max: 506, k: 0, curr_cost: 640
+128 banks are on, 1920 requests are processed, 14
+j: 451, j_max: 451, k: 0, curr_cost: 640
+128 banks are on, 2048 requests are processed, 15
+j: 448, j_max: 448, k: 0, curr_cost: 640
+128 banks are on, 2176 requests are processed, 16
+j: 454, j_max: 454, k: 0, curr_cost: 640
+128 banks are on, 2304 requests are processed, 17
+j: 449, j_max: 449, k: 0, curr_cost: 640
+128 banks are on, 2432 requests are processed, 18
+j: 449, j_max: 449, k: 0, curr_cost: 640
+128 banks are on, 2560 requests are processed, 19
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+Segmentation fault (core dumped)

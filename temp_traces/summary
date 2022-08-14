@@ -1,0 +1,3398 @@
+exchange
+00945
+temp_traces/BASELINE/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+
+01625
+temp_traces/BASELINE/:
+Total number of cycles: 17
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 17
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 17
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 17
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 17
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 17
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 17
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 17
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 17
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 17
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 17
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 17
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 17
+Average number of banks that are on: 128.00
+
+01683
+temp_traces/BASELINE/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+
+02952
+temp_traces/BASELINE/:
+Total number of cycles: 18
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 18
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 18
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 18
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 18
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 18
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 18
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 18
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 18
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 18
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 18
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 18
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 18
+Average number of banks that are on: 128.00
+
+02978
+temp_traces/BASELINE/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/GREEDY/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_1024_3_25_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_1024_5_0_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_1024_5_25_10/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_1024_5_25_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_1024_5_50_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_1024_6_25_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_1536_5_25_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_512_3_25_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_512_4_25_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_512_5_25_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+
+03038
+temp_traces/BASELINE/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+
+03132
+temp_traces/BASELINE/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+
+03697
+temp_traces/BASELINE/:
+Total number of cycles: 6
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 6
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 6
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 6
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 6
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 6
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 6
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 6
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 6
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 6
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 6
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 6
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 6
+Average number of banks that are on: 128.00
+
+03805
+temp_traces/BASELINE/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+
+04305
+temp_traces/BASELINE/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+
+06752
+temp_traces/BASELINE/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+
+06759
+temp_traces/BASELINE/:
+Total number of cycles: 5
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 5
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 5
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 5
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 5
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 5
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 5
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 5
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 5
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 5
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 5
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 5
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 5
+Average number of banks that are on: 128.00
+
+07095
+temp_traces/BASELINE/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+
+07299
+temp_traces/BASELINE/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+
+07707
+temp_traces/BASELINE/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 128.00
+
+07771
+temp_traces/BASELINE/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/GREEDY/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_1024_3_25_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_1024_5_0_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_1024_5_25_10/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_1024_5_25_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_1024_5_50_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_1024_6_25_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_1536_5_25_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_512_3_25_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_512_4_25_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+temp_traces/KNAPSACK_512_5_25_5/:
+  File "./parser.py", line 306, in <module>
+    min_time_stamp = min(list_time_stamp)
+
+09022
+temp_traces/BASELINE/:
+Total number of cycles: 16
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 16
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 16
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 16
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 16
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 16
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 16
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 16
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 16
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 16
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 16
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 16
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 16
+Average number of banks that are on: 128.00
+
+09624
+temp_traces/BASELINE/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+
+09808
+temp_traces/BASELINE/:
+Total number of cycles: 3
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 3
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 3
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 3
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 3
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 3
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 3
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 3
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 3
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 3
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 3
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 3
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 3
+Average number of banks that are on: 128.00
+
+
+x264
+00468
+temp_traces/BASELINE/:
+Total number of cycles: 14
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 14
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 14
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 14
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 14
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 14
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 14
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 14
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 14
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 14
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 14
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 14
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 14
+Average number of banks that are on: 128.00
+
+00959
+temp_traces/BASELINE/:
+Total number of cycles: 14
+Average number of banks that are on: 127.64
+temp_traces/GREEDY/:
+Total number of cycles: 14
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 15
+Average number of banks that are on: 126.80
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 126.80
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 15
+Average number of banks that are on: 126.80
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 15
+Average number of banks that are on: 126.80
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 126.80
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 15
+Average number of banks that are on: 126.80
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 126.80
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 127.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 125.47
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 125.47
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 125.47
+
+01082
+temp_traces/BASELINE/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 10
+Average number of banks that are on: 128.00
+
+01171
+temp_traces/BASELINE/:
+Total number of cycles: 14
+Average number of banks that are on: 127.71
+temp_traces/GREEDY/:
+Total number of cycles: 14
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 14
+Average number of banks that are on: 127.14
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 14
+Average number of banks that are on: 127.14
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 14
+Average number of banks that are on: 127.14
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 14
+Average number of banks that are on: 127.14
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 14
+Average number of banks that are on: 127.14
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 14
+Average number of banks that are on: 127.14
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 14
+Average number of banks that are on: 127.14
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 14
+Average number of banks that are on: 127.36
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 126.27
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 126.27
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 15
+Average number of banks that are on: 126.27
+
+03169
+temp_traces/BASELINE/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+
+03995
+temp_traces/BASELINE/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+
+04043
+temp_traces/BASELINE/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+
+05694
+temp_traces/BASELINE/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 11
+Average number of banks that are on: 128.00
+
+10829
+temp_traces/BASELINE/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+
+12034
+temp_traces/BASELINE/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+
+12324
+temp_traces/BASELINE/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+
+12742
+temp_traces/BASELINE/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+
+14943
+temp_traces/BASELINE/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+
+16543
+temp_traces/BASELINE/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+
+
+gcc
+00092
+temp_traces/BASELINE/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 35
+Average number of banks that are on: 127.94
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 35
+Average number of banks that are on: 127.94
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 35
+Average number of banks that are on: 127.94
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 35
+Average number of banks that are on: 127.94
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 35
+Average number of banks that are on: 127.94
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 35
+Average number of banks that are on: 127.94
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 35
+Average number of banks that are on: 127.94
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 35
+Average number of banks that are on: 127.57
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 35
+Average number of banks that are on: 127.57
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 35
+Average number of banks that are on: 127.57
+
+00168
+temp_traces/BASELINE/:
+Total number of cycles: 32
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 32
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 32
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 32
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 32
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 32
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 32
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 32
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 32
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 32
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 32
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 32
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 32
+Average number of banks that are on: 128.00
+
+00361
+temp_traces/BASELINE/:
+Total number of cycles: 45
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 45
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 45
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 45
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 45
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 45
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 45
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 45
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 45
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 45
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 45
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 45
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 45
+Average number of banks that are on: 128.00
+
+00444
+temp_traces/BASELINE/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+
+00685
+temp_traces/BASELINE/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+
+00822
+temp_traces/BASELINE/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+
+00842
+temp_traces/BASELINE/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+
+00871
+temp_traces/BASELINE/:
+Total number of cycles: 61
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 61
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 61
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 61
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 61
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 61
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 61
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 61
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 61
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 61
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 61
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 61
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 61
+Average number of banks that are on: 128.00
+
+01207
+temp_traces/BASELINE/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 36
+Average number of banks that are on: 127.78
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 36
+Average number of banks that are on: 127.78
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 36
+Average number of banks that are on: 127.78
+
+01363
+temp_traces/BASELINE/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 27
+Average number of banks that are on: 126.52
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 25
+Average number of banks that are on: 126.56
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 25
+Average number of banks that are on: 126.60
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 25
+Average number of banks that are on: 126.60
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 25
+Average number of banks that are on: 126.60
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 25
+Average number of banks that are on: 126.60
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 25
+Average number of banks that are on: 126.60
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 25
+Average number of banks that are on: 126.64
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 27
+Average number of banks that are on: 126.59
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 27
+Average number of banks that are on: 126.59
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 27
+Average number of banks that are on: 126.59
+
+03596
+temp_traces/BASELINE/:
+Total number of cycles: 137
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 137
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 137
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 137
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 137
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 137
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 137
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 137
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 137
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 137
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 137
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 137
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 137
+Average number of banks that are on: 128.00
+
+05280
+temp_traces/BASELINE/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+
+12001
+temp_traces/BASELINE/:
+Total number of cycles: 86
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 86
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 86
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 86
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 86
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 86
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 86
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 86
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 86
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 86
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 86
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 86
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 86
+Average number of banks that are on: 128.00
+
+23620
+temp_traces/BASELINE/:
+Total number of cycles: 39
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 39
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 39
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 39
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 39
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 39
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 39
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 39
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 39
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 39
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 39
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 39
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 39
+Average number of banks that are on: 128.00
+
+48648
+temp_traces/BASELINE/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 38
+Average number of banks that are on: 128.00
+
+
+nab
+00080
+temp_traces/BASELINE/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+
+00086
+temp_traces/BASELINE/:
+Total number of cycles: 29
+Average number of banks that are on: 127.83
+temp_traces/GREEDY/:
+Total number of cycles: 29
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 30
+Average number of banks that are on: 127.53
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 30
+Average number of banks that are on: 127.53
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 30
+Average number of banks that are on: 127.53
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 30
+Average number of banks that are on: 127.53
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 30
+Average number of banks that are on: 127.53
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 30
+Average number of banks that are on: 127.53
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 30
+Average number of banks that are on: 127.53
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 29
+Average number of banks that are on: 127.66
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 30
+Average number of banks that are on: 126.97
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 30
+Average number of banks that are on: 126.87
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 30
+Average number of banks that are on: 126.87
+
+00140
+temp_traces/BASELINE/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 36
+Average number of banks that are on: 128.00
+
+00160
+temp_traces/BASELINE/:
+Total number of cycles: 46
+Average number of banks that are on: 119.61
+temp_traces/GREEDY/:
+Total number of cycles: 45
+Average number of banks that are on: 123.73
+temp_traces/KNAPSACK/:
+Total number of cycles: 54
+Average number of banks that are on: 116.61
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 55
+Average number of banks that are on: 119.16
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 54
+Average number of banks that are on: 119.26
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 54
+Average number of banks that are on: 119.26
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 54
+Average number of banks that are on: 119.26
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 54
+Average number of banks that are on: 119.26
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 54
+Average number of banks that are on: 119.26
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 51
+Average number of banks that are on: 118.71
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 53
+Average number of banks that are on: 116.83
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 54
+Average number of banks that are on: 117.48
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 53
+Average number of banks that are on: 117.15
+
+00251
+temp_traces/BASELINE/:
+Total number of cycles: 46
+Average number of banks that are on: 119.50
+temp_traces/GREEDY/:
+Total number of cycles: 44
+Average number of banks that are on: 123.73
+temp_traces/KNAPSACK/:
+Total number of cycles: 58
+Average number of banks that are on: 117.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 61
+Average number of banks that are on: 120.18
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 61
+Average number of banks that are on: 120.25
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 60
+Average number of banks that are on: 120.15
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 61
+Average number of banks that are on: 120.25
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 61
+Average number of banks that are on: 120.25
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 61
+Average number of banks that are on: 120.25
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 54
+Average number of banks that are on: 118.65
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 53
+Average number of banks that are on: 116.68
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 59
+Average number of banks that are on: 118.34
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 53
+Average number of banks that are on: 116.34
+
+00262
+temp_traces/BASELINE/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 127.95
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 127.95
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 127.95
+
+06907
+temp_traces/BASELINE/:
+Total number of cycles: 53
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 53
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 53
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 53
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 53
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 53
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 53
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 53
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 53
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 53
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 53
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 53
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 53
+Average number of banks that are on: 128.00
+
+07451
+temp_traces/BASELINE/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+
+09763
+temp_traces/BASELINE/:
+Total number of cycles: 52
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 52
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 52
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 52
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 52
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 52
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 52
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 52
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 52
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 52
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 52
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 52
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 52
+Average number of banks that are on: 128.00
+
+17913
+temp_traces/BASELINE/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 35
+Average number of banks that are on: 128.00
+
+22748
+temp_traces/BASELINE/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 128.00
+
+34240
+temp_traces/BASELINE/:
+Total number of cycles: 27
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 27
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 27
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 27
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 27
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 27
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 27
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 27
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 27
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 27
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 27
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 27
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 27
+Average number of banks that are on: 128.00
+
+
+imagick
+00035
+temp_traces/BASELINE/:
+Total number of cycles: 26
+Average number of banks that are on: 124.35
+temp_traces/GREEDY/:
+Total number of cycles: 24
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 27
+Average number of banks that are on: 121.93
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 26
+Average number of banks that are on: 124.12
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 26
+Average number of banks that are on: 124.12
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 26
+Average number of banks that are on: 124.12
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 26
+Average number of banks that are on: 124.12
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 26
+Average number of banks that are on: 124.12
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 26
+Average number of banks that are on: 124.12
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 26
+Average number of banks that are on: 124.12
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 27
+Average number of banks that are on: 123.19
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 27
+Average number of banks that are on: 123.22
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 27
+Average number of banks that are on: 123.19
+
+00041
+temp_traces/BASELINE/:
+Total number of cycles: 65
+Average number of banks that are on: 118.91
+temp_traces/GREEDY/:
+Total number of cycles: 68
+Average number of banks that are on: 119.57
+temp_traces/KNAPSACK/:
+Total number of cycles: 73
+Average number of banks that are on: 115.36
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 68
+Average number of banks that are on: 115.34
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 64
+Average number of banks that are on: 114.77
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 75
+Average number of banks that are on: 116.99
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 64
+Average number of banks that are on: 114.77
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 64
+Average number of banks that are on: 114.77
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 64
+Average number of banks that are on: 114.77
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 78
+Average number of banks that are on: 117.81
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 67
+Average number of banks that are on: 114.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 65
+Average number of banks that are on: 113.92
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 65
+Average number of banks that are on: 113.92
+
+00539
+temp_traces/BASELINE/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 19
+Average number of banks that are on: 128.00
+
+00783
+temp_traces/BASELINE/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+
+01211
+temp_traces/BASELINE/:
+Total number of cycles: 22
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 22
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 22
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 22
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 22
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 22
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 22
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 22
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 22
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 22
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 22
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 22
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 22
+Average number of banks that are on: 128.00
+
+01267
+temp_traces/BASELINE/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+
+02448
+temp_traces/BASELINE/:
+Total number of cycles: 37
+Average number of banks that are on: 121.03
+temp_traces/GREEDY/:
+Total number of cycles: 32
+Average number of banks that are on: 126.38
+temp_traces/KNAPSACK/:
+Total number of cycles: 39
+Average number of banks that are on: 117.08
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 120.54
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 37
+Average number of banks that are on: 120.54
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 37
+Average number of banks that are on: 120.57
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 120.54
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 37
+Average number of banks that are on: 120.54
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 120.54
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 120.43
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 118.84
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 118.84
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 37
+Average number of banks that are on: 118.30
+
+02500
+temp_traces/BASELINE/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+
+02756
+temp_traces/BASELINE/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 12
+Average number of banks that are on: 128.00
+
+04235
+temp_traces/BASELINE/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+
+04967
+temp_traces/BASELINE/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 13
+Average number of banks that are on: 128.00
+
+08117
+temp_traces/BASELINE/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+
+27234
+temp_traces/BASELINE/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+
+43830
+temp_traces/BASELINE/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+
+
+lbm
+00559
+temp_traces/BASELINE/:
+Total number of cycles: 119
+Average number of banks that are on: 111.98
+temp_traces/GREEDY/:
+Total number of cycles: 119
+Average number of banks that are on: 113.05
+temp_traces/KNAPSACK/:
+Total number of cycles: 157
+Average number of banks that are on: 106.24
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 145
+Average number of banks that are on: 111.45
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 131
+Average number of banks that are on: 110.34
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 137
+Average number of banks that are on: 111.51
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 131
+Average number of banks that are on: 110.34
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 131
+Average number of banks that are on: 110.34
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 131
+Average number of banks that are on: 110.34
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 135
+Average number of banks that are on: 111.37
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 148
+Average number of banks that are on: 109.35
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 138
+Average number of banks that are on: 108.17
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 148
+Average number of banks that are on: 109.36
+
+02382
+temp_traces/BASELINE/:
+Total number of cycles: 521
+Average number of banks that are on: 111.67
+temp_traces/GREEDY/:
+Total number of cycles: 517
+Average number of banks that are on: 111.74
+temp_traces/KNAPSACK/:
+Total number of cycles: 768
+Average number of banks that are on: 107.45
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 606
+Average number of banks that are on: 109.76
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 559
+Average number of banks that are on: 110.52
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 565
+Average number of banks that are on: 110.76
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 559
+Average number of banks that are on: 110.52
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 559
+Average number of banks that are on: 110.52
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 559
+Average number of banks that are on: 110.52
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 557
+Average number of banks that are on: 110.83
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 635
+Average number of banks that are on: 108.70
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 576
+Average number of banks that are on: 107.36
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 570
+Average number of banks that are on: 106.71
+
+03648
+temp_traces/BASELINE/:
+Total number of cycles: 390
+Average number of banks that are on: 111.28
+temp_traces/GREEDY/:
+Total number of cycles: 385
+Average number of banks that are on: 111.53
+temp_traces/KNAPSACK/:
+Total number of cycles: 569
+Average number of banks that are on: 107.42
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 432
+Average number of banks that are on: 108.33
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 420
+Average number of banks that are on: 110.04
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 417
+Average number of banks that are on: 110.04
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 420
+Average number of banks that are on: 110.04
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 420
+Average number of banks that are on: 110.04
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 420
+Average number of banks that are on: 110.04
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 420
+Average number of banks that are on: 110.69
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 481
+Average number of banks that are on: 108.81
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 450
+Average number of banks that are on: 107.05
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 427
+Average number of banks that are on: 106.62
+
+04356
+temp_traces/BASELINE/:
+Total number of cycles: 294
+Average number of banks that are on: 110.35
+temp_traces/GREEDY/:
+Total number of cycles: 300
+Average number of banks that are on: 111.74
+temp_traces/KNAPSACK/:
+Total number of cycles: 412
+Average number of banks that are on: 102.40
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 360
+Average number of banks that are on: 109.41
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 319
+Average number of banks that are on: 108.79
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 327
+Average number of banks that are on: 109.44
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 319
+Average number of banks that are on: 108.79
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 319
+Average number of banks that are on: 108.79
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 319
+Average number of banks that are on: 108.79
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 333
+Average number of banks that are on: 110.05
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 326
+Average number of banks that are on: 105.90
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 345
+Average number of banks that are on: 107.12
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 326
+Average number of banks that are on: 106.92
+
+04426
+temp_traces/BASELINE/:
+Total number of cycles: 297
+Average number of banks that are on: 110.91
+temp_traces/GREEDY/:
+Total number of cycles: 295
+Average number of banks that are on: 111.60
+temp_traces/KNAPSACK/:
+Total number of cycles: 437
+Average number of banks that are on: 105.05
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 355
+Average number of banks that are on: 109.69
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 329
+Average number of banks that are on: 109.90
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 332
+Average number of banks that are on: 110.20
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 329
+Average number of banks that are on: 109.90
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 329
+Average number of banks that are on: 109.90
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 329
+Average number of banks that are on: 109.90
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 328
+Average number of banks that are on: 110.70
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 380
+Average number of banks that are on: 109.52
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 351
+Average number of banks that are on: 107.01
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 333
+Average number of banks that are on: 107.20
+
+14923
+temp_traces/BASELINE/:
+Total number of cycles: 230
+Average number of banks that are on: 110.38
+temp_traces/GREEDY/:
+Total number of cycles: 227
+Average number of banks that are on: 111.55
+temp_traces/KNAPSACK/:
+Total number of cycles: 323
+Average number of banks that are on: 101.36
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 281
+Average number of banks that are on: 109.43
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 254
+Average number of banks that are on: 109.11
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 254
+Average number of banks that are on: 109.24
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 254
+Average number of banks that are on: 109.11
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 254
+Average number of banks that are on: 109.11
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 254
+Average number of banks that are on: 109.11
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 243
+Average number of banks that are on: 108.78
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 256
+Average number of banks that are on: 105.99
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 288
+Average number of banks that are on: 108.34
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 252
+Average number of banks that are on: 106.59
+
+69692
+temp_traces/BASELINE/:
+Total number of cycles: 484
+Average number of banks that are on: 111.73
+temp_traces/GREEDY/:
+Total number of cycles: 481
+Average number of banks that are on: 111.80
+temp_traces/KNAPSACK/:
+Total number of cycles: 664
+Average number of banks that are on: 107.14
+temp_traces/KNAPSACK_1024_3_25_5/:
+Total number of cycles: 555
+Average number of banks that are on: 109.48
+temp_traces/KNAPSACK_1024_5_0_5/:
+Total number of cycles: 518
+Average number of banks that are on: 110.53
+temp_traces/KNAPSACK_1024_5_25_10/:
+Total number of cycles: 520
+Average number of banks that are on: 110.62
+temp_traces/KNAPSACK_1024_5_25_5/:
+Total number of cycles: 518
+Average number of banks that are on: 110.53
+temp_traces/KNAPSACK_1024_5_50_5/:
+Total number of cycles: 518
+Average number of banks that are on: 110.53
+temp_traces/KNAPSACK_1024_6_25_5/:
+Total number of cycles: 518
+Average number of banks that are on: 110.53
+temp_traces/KNAPSACK_1536_5_25_5/:
+Total number of cycles: 514
+Average number of banks that are on: 110.75
+temp_traces/KNAPSACK_512_3_25_5/:
+Total number of cycles: 655
+Average number of banks that are on: 110.67
+temp_traces/KNAPSACK_512_4_25_5/:
+Total number of cycles: 530
+Average number of banks that are on: 106.87
+temp_traces/KNAPSACK_512_5_25_5/:
+Total number of cycles: 530
+Average number of banks that are on: 106.77
+
+
+mixed_workloads
+11_11_10
+temp_traces/BASELINE/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+temp_traces/GREEDY/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 39
+Average number of banks that are on: 124.85
+temp_traces/KNAPSACK_1024_3_25_5/:
+temp_traces/KNAPSACK_1024_5_0_5/:
+temp_traces/KNAPSACK_1024_5_25_10/:
+temp_traces/KNAPSACK_1024_5_25_5/:
+temp_traces/KNAPSACK_1024_5_50_5/:
+temp_traces/KNAPSACK_1024_6_25_5/:
+temp_traces/KNAPSACK_1536_5_25_5/:
+temp_traces/KNAPSACK_512_3_25_5/:
+temp_traces/KNAPSACK_512_4_25_5/:
+temp_traces/KNAPSACK_512_5_25_5/:
+
+5_5_22
+temp_traces/BASELINE/:
+Total number of cycles: 39
+Average number of banks that are on: 116.08
+temp_traces/GREEDY/:
+Total number of cycles: 35
+Average number of banks that are on: 120.89
+temp_traces/KNAPSACK/:
+Total number of cycles: 45
+Average number of banks that are on: 112.84
+temp_traces/KNAPSACK_1024_3_25_5/:
+temp_traces/KNAPSACK_1024_5_0_5/:
+temp_traces/KNAPSACK_1024_5_25_10/:
+temp_traces/KNAPSACK_1024_5_25_5/:
+temp_traces/KNAPSACK_1024_5_50_5/:
+temp_traces/KNAPSACK_1024_6_25_5/:
+temp_traces/KNAPSACK_1536_5_25_5/:
+temp_traces/KNAPSACK_512_3_25_5/:
+temp_traces/KNAPSACK_512_4_25_5/:
+temp_traces/KNAPSACK_512_5_25_5/:
+
+8_8_16
+temp_traces/BASELINE/:
+Total number of cycles: 39
+Average number of banks that are on: 124.54
+temp_traces/GREEDY/:
+Total number of cycles: 20
+Average number of banks that are on: 128.00
+temp_traces/KNAPSACK/:
+Total number of cycles: 39
+Average number of banks that are on: 112.97
+temp_traces/KNAPSACK_1024_3_25_5/:
+temp_traces/KNAPSACK_1024_5_0_5/:
+temp_traces/KNAPSACK_1024_5_25_10/:
+temp_traces/KNAPSACK_1024_5_25_5/:
+temp_traces/KNAPSACK_1024_5_50_5/:
+temp_traces/KNAPSACK_1024_6_25_5/:
+temp_traces/KNAPSACK_1536_5_25_5/:
+temp_traces/KNAPSACK_512_3_25_5/:
+temp_traces/KNAPSACK_512_4_25_5/:
+temp_traces/KNAPSACK_512_5_25_5/:
+
+

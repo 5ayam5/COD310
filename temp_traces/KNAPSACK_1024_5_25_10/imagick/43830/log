@@ -1,0 +1,46 @@
+warning: layer configuration file specified. overriding default floorplan with those in lcf file...
+j: 507, j_max: 507, k: 0, curr_cost: 128
+128 banks are on, 128 requests are processed, 0
+j: 457, j_max: 457, k: 0, curr_cost: 256
+128 banks are on, 256 requests are processed, 1
+j: 456, j_max: 456, k: 0, curr_cost: 384
+128 banks are on, 384 requests are processed, 2
+j: 455, j_max: 455, k: 0, curr_cost: 512
+128 banks are on, 512 requests are processed, 3
+j: 457, j_max: 457, k: 0, curr_cost: 640
+128 banks are on, 640 requests are processed, 4
+j: 455, j_max: 455, k: 0, curr_cost: 768
+128 banks are on, 768 requests are processed, 5
+j: 455, j_max: 455, k: 0, curr_cost: 896
+128 banks are on, 896 requests are processed, 6
+j: 455, j_max: 455, k: 0, curr_cost: 1024
+128 banks are on, 1024 requests are processed, 7
+j: 452, j_max: 452, k: 0, curr_cost: 1152
+128 banks are on, 1152 requests are processed, 8
+j: 454, j_max: 454, k: 0, curr_cost: 1280
+128 banks are on, 1280 requests are processed, 9
+j: 454, j_max: 454, k: 0, curr_cost: 1280
+128 banks are on, 1408 requests are processed, 10
+j: 452, j_max: 452, k: 0, curr_cost: 1280
+128 banks are on, 1536 requests are processed, 11
+j: 453, j_max: 453, k: 0, curr_cost: 1280
+128 banks are on, 1664 requests are processed, 12
+j: 452, j_max: 452, k: 0, curr_cost: 1280
+128 banks are on, 1792 requests are processed, 13
+j: 451, j_max: 451, k: 0, curr_cost: 1280
+128 banks are on, 1920 requests are processed, 14
+j: 448, j_max: 448, k: 0, curr_cost: 1280
+128 banks are on, 2048 requests are processed, 15
+j: 448, j_max: 448, k: 0, curr_cost: 1280
+128 banks are on, 2176 requests are processed, 16
+j: 449, j_max: 449, k: 0, curr_cost: 1280
+128 banks are on, 2304 requests are processed, 17
+j: 449, j_max: 449, k: 0, curr_cost: 1280
+128 banks are on, 2432 requests are processed, 18
+j: 451, j_max: 451, k: 0, curr_cost: 1280
+128 banks are on, 2560 requests are processed, 19
+j: 449, j_max: 449, k: 0, curr_cost: 1280
+128 banks are on, 2688 requests are processed, 20
+Total number of cycles: 21
+Average number of banks that are on: 128.00
+Segmentation fault (core dumped)

@@ -1,0 +1,32 @@
+warning: layer configuration file specified. overriding default floorplan with those in lcf file...
+j: 690, j_max: 690, k: 0, curr_cost: 128
+128 banks are on, 128 requests are processed, 0
+j: 646, j_max: 646, k: 0, curr_cost: 256
+128 banks are on, 256 requests are processed, 1
+j: 1231, j_max: 1231, k: 0, curr_cost: 384
+128 banks are on, 384 requests are processed, 2
+j: 1300, j_max: 1308, k: 0, curr_cost: 476
+119 banks are on, 503 requests are processed, 3
+j: 794, j_max: 794, k: 0, curr_cost: 631
+128 banks are on, 631 requests are processed, 4
+j: 720, j_max: 720, k: 0, curr_cost: 640
+128 banks are on, 759 requests are processed, 5
+j: 720, j_max: 720, k: 0, curr_cost: 640
+128 banks are on, 887 requests are processed, 6
+j: 744, j_max: 744, k: 0, curr_cost: 640
+128 banks are on, 1015 requests are processed, 7
+j: 836, j_max: 836, k: 0, curr_cost: 640
+128 banks are on, 1143 requests are processed, 8
+j: 858, j_max: 858, k: 0, curr_cost: 640
+128 banks are on, 1271 requests are processed, 9
+j: 858, j_max: 858, k: 0, curr_cost: 640
+128 banks are on, 1399 requests are processed, 10
+j: 864, j_max: 864, k: 0, curr_cost: 640
+128 banks are on, 1527 requests are processed, 11
+j: 956, j_max: 956, k: 0, curr_cost: 640
+128 banks are on, 1655 requests are processed, 12
+j: 754, j_max: 754, k: 0, curr_cost: 640
+128 banks are on, 1783 requests are processed, 13
+Total number of cycles: 14
+Average number of banks that are on: 127.36
+Segmentation fault (core dumped)

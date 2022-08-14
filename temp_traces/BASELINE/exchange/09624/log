@@ -1,0 +1,6 @@
+warning: layer configuration file specified. overriding default floorplan with those in lcf file...
+0, 42.59, 0
+128 banks are on, 128 requests are processed, 23.59
+Total number of cycles: 1
+Average number of banks that are on: 128.00
+error: no power numbers in trace file

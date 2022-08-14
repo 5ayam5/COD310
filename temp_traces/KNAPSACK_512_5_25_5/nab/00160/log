@@ -1,0 +1,110 @@
+warning: layer configuration file specified. overriding default floorplan with those in lcf file...
+j: 256, j_max: 256, k: 0, curr_cost: 128
+128 banks are on, 128 requests are processed, 0
+j: 256, j_max: 256, k: 0, curr_cost: 256
+128 banks are on, 256 requests are processed, 1
+j: 256, j_max: 256, k: 0, curr_cost: 384
+128 banks are on, 384 requests are processed, 2
+j: 256, j_max: 256, k: 0, curr_cost: 512
+128 banks are on, 512 requests are processed, 3
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 640 requests are processed, 4
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 768 requests are processed, 5
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 896 requests are processed, 6
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 1024 requests are processed, 7
+j: 256, j_max: 256, k: 0, curr_cost: 640
+128 banks are on, 1152 requests are processed, 8
+j: 384, j_max: 384, k: 0, curr_cost: 640
+128 banks are on, 1280 requests are processed, 9
+j: 435, j_max: 435, k: 0, curr_cost: 435
+87 banks are on, 1367 requests are processed, 10
+j: 432, j_max: 434, k: 0, curr_cost: 460
+92 banks are on, 1459 requests are processed, 11
+j: 433, j_max: 434, k: 0, curr_cost: 450
+90 banks are on, 1549 requests are processed, 12
+j: 432, j_max: 433, k: 0, curr_cost: 435
+87 banks are on, 1636 requests are processed, 13
+j: 429, j_max: 433, k: 0, curr_cost: 440
+88 banks are on, 1724 requests are processed, 14
+j: 430, j_max: 433, k: 0, curr_cost: 440
+88 banks are on, 1812 requests are processed, 15
+j: 432, j_max: 432, k: 0, curr_cost: 435
+87 banks are on, 1899 requests are processed, 16
+j: 430, j_max: 432, k: 0, curr_cost: 445
+89 banks are on, 1988 requests are processed, 17
+j: 429, j_max: 432, k: 1, curr_cost: 435
+87 banks are on, 2075 requests are processed, 18
+j: 432, j_max: 432, k: 4, curr_cost: 470
+94 banks are on, 2169 requests are processed, 19
+j: 432, j_max: 432, k: 10, curr_cost: 490
+98 banks are on, 2267 requests are processed, 20
+j: 430, j_max: 431, k: 11, curr_cost: 495
+99 banks are on, 2366 requests are processed, 21
+j: 428, j_max: 431, k: 18, curr_cost: 505
+101 banks are on, 2467 requests are processed, 22
+j: 429, j_max: 431, k: 28, curr_cost: 550
+110 banks are on, 2577 requests are processed, 23
+j: 430, j_max: 431, k: 125, curr_cost: 570
+114 banks are on, 2691 requests are processed, 24
+j: 429, j_max: 430, k: 148, curr_cost: 580
+116 banks are on, 2807 requests are processed, 25
+j: 430, j_max: 430, k: 224, curr_cost: 610
+122 banks are on, 2929 requests are processed, 26
+j: 428, j_max: 429, k: 354, curr_cost: 620
+124 banks are on, 3053 requests are processed, 27
+j: 426, j_max: 429, k: 438, curr_cost: 625
+125 banks are on, 3178 requests are processed, 28
+j: 423, j_max: 429, k: 495, curr_cost: 625
+125 banks are on, 3303 requests are processed, 29
+j: 391, j_max: 426, k: 508, curr_cost: 605
+121 banks are on, 3424 requests are processed, 30
+j: 385, j_max: 410, k: 498, curr_cost: 615
+123 banks are on, 3547 requests are processed, 31
+j: 375, j_max: 415, k: 488, curr_cost: 600
+120 banks are on, 3667 requests are processed, 32
+j: 375, j_max: 410, k: 496, curr_cost: 605
+121 banks are on, 3788 requests are processed, 33
+j: 368, j_max: 395, k: 511, curr_cost: 610
+122 banks are on, 3910 requests are processed, 34
+j: 256, j_max: 276, k: 508, curr_cost: 620
+124 banks are on, 3995 requests are processed, 35
+j: 214, j_max: 219, k: 492, curr_cost: 596
+127 banks are on, 4066 requests are processed, 36
+j: 192, j_max: 192, k: 480, curr_cost: 545
+128 banks are on, 4130 requests are processed, 37
+j: 140, j_max: 140, k: 293, curr_cost: 481
+128 banks are on, 4177 requests are processed, 38
+j: 131, j_max: 131, k: 151, curr_cost: 400
+128 banks are on, 4221 requests are processed, 39
+j: 121, j_max: 121, k: 137, curr_cost: 316
+128 banks are on, 4261 requests are processed, 40
+j: 118, j_max: 118, k: 71, curr_cost: 267
+128 banks are on, 4300 requests are processed, 41
+j: 99, j_max: 99, k: 17, curr_cost: 234
+128 banks are on, 4333 requests are processed, 42
+j: 96, j_max: 96, k: 16, curr_cost: 203
+128 banks are on, 4365 requests are processed, 43
+j: 96, j_max: 96, k: 7, curr_cost: 188
+128 banks are on, 4397 requests are processed, 44
+j: 87, j_max: 87, k: 0, curr_cost: 176
+128 banks are on, 4426 requests are processed, 45
+j: 57, j_max: 57, k: 0, curr_cost: 165
+128 banks are on, 4445 requests are processed, 46
+j: 39, j_max: 39, k: 0, curr_cost: 145
+128 banks are on, 4458 requests are processed, 47
+j: 24, j_max: 24, k: 0, curr_cost: 125
+128 banks are on, 4466 requests are processed, 48
+j: 18, j_max: 18, k: 0, curr_cost: 101
+128 banks are on, 4472 requests are processed, 49
+j: 12, j_max: 12, k: 0, curr_cost: 75
+128 banks are on, 4476 requests are processed, 50
+j: 6, j_max: 6, k: 0, curr_cost: 50
+128 banks are on, 4478 requests are processed, 51
+j: 3, j_max: 3, k: 0, curr_cost: 33
+128 banks are on, 4479 requests are processed, 52
+Total number of cycles: 53
+Average number of banks that are on: 117.15
+Segmentation fault (core dumped)

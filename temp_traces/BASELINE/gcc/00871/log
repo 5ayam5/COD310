@@ -1,0 +1,126 @@
+warning: layer configuration file specified. overriding default floorplan with those in lcf file...
+0, 42.59, 0
+128 banks are on, 128 requests are processed, 16.76
+0, 42.58, 1
+128 banks are on, 256 requests are processed, 16.51
+0, 42.56, 2
+128 banks are on, 384 requests are processed, 16.78
+0, 42.55, 3
+128 banks are on, 512 requests are processed, 16.44
+0, 42.53, 4
+128 banks are on, 640 requests are processed, 15.27
+0, 42.51, 5
+128 banks are on, 768 requests are processed, 14.31
+0, 42.48, 6
+128 banks are on, 896 requests are processed, 14.94
+0, 42.46, 7
+128 banks are on, 1024 requests are processed, 14.58
+0, 42.44, 8
+128 banks are on, 1152 requests are processed, 14.90
+0, 42.43, 9
+128 banks are on, 1280 requests are processed, 15.70
+0, 42.41, 10
+128 banks are on, 1408 requests are processed, 11.08
+0, 42.38, 11
+128 banks are on, 1536 requests are processed, 12.00
+0, 42.36, 12
+128 banks are on, 1664 requests are processed, 11.91
+0, 42.33, 13
+128 banks are on, 1792 requests are processed, 11.84
+0, 42.31, 14
+128 banks are on, 1920 requests are processed, 11.76
+0, 42.28, 15
+128 banks are on, 2048 requests are processed, 11.70
+0, 42.26, 16
+128 banks are on, 2176 requests are processed, 11.67
+0, 42.24, 17
+128 banks are on, 2304 requests are processed, 11.63
+0, 42.22, 18
+128 banks are on, 2432 requests are processed, 11.60
+0, 42.21, 19
+128 banks are on, 2560 requests are processed, 11.61
+0, 42.19, 20
+128 banks are on, 2688 requests are processed, 11.50
+0, 42.17, 21
+128 banks are on, 2816 requests are processed, 12.50
+0, 42.16, 22
+128 banks are on, 2944 requests are processed, 11.26
+0, 42.15, 23
+128 banks are on, 3072 requests are processed, 11.38
+0, 42.14, 24
+128 banks are on, 3200 requests are processed, 11.38
+0, 42.12, 25
+128 banks are on, 3328 requests are processed, 11.32
+0, 42.11, 26
+128 banks are on, 3456 requests are processed, 11.29
+0, 42.10, 27
+128 banks are on, 3584 requests are processed, 11.25
+0, 42.09, 28
+128 banks are on, 3712 requests are processed, 11.20
+0, 42.08, 29
+128 banks are on, 3840 requests are processed, 11.22
+0, 42.07, 30
+128 banks are on, 3968 requests are processed, 11.21
+0, 42.06, 31
+128 banks are on, 4096 requests are processed, 11.34
+0, 42.06, 32
+128 banks are on, 4224 requests are processed, 11.15
+0, 42.05, 33
+128 banks are on, 4352 requests are processed, 11.15
+0, 42.04, 34
+128 banks are on, 4480 requests are processed, 13.34
+0, 42.04, 35
+128 banks are on, 4608 requests are processed, 11.44
+0, 42.04, 36
+128 banks are on, 4736 requests are processed, 11.10
+0, 42.03, 37
+128 banks are on, 4864 requests are processed, 11.11
+0, 42.03, 38
+128 banks are on, 4992 requests are processed, 11.08
+0, 42.02, 39
+128 banks are on, 5120 requests are processed, 11.07
+0, 42.02, 40
+128 banks are on, 5248 requests are processed, 11.02
+0, 42.01, 41
+128 banks are on, 5376 requests are processed, 11.03
+0, 42.01, 42
+128 banks are on, 5504 requests are processed, 11.06
+0, 42.00, 43
+128 banks are on, 5632 requests are processed, 11.01
+0, 42.00, 44
+128 banks are on, 5760 requests are processed, 11.00
+0, 41.99, 45
+128 banks are on, 5888 requests are processed, 10.98
+0, 41.99, 46
+128 banks are on, 6016 requests are processed, 11.45
+0, 41.99, 47
+128 banks are on, 6144 requests are processed, 10.94
+0, 41.98, 48
+128 banks are on, 6272 requests are processed, 10.97
+0, 41.98, 49
+128 banks are on, 6400 requests are processed, 10.94
+0, 41.97, 50
+128 banks are on, 6528 requests are processed, 10.93
+0, 41.97, 51
+128 banks are on, 6656 requests are processed, 10.92
+0, 41.97, 52
+128 banks are on, 6784 requests are processed, 10.96
+0, 41.97, 53
+128 banks are on, 6912 requests are processed, 11.13
+0, 41.96, 54
+128 banks are on, 7040 requests are processed, 11.11
+0, 41.96, 55
+128 banks are on, 7168 requests are processed, 11.09
+0, 41.96, 56
+128 banks are on, 7296 requests are processed, 11.09
+0, 41.96, 57
+128 banks are on, 7424 requests are processed, 11.14
+0, 41.96, 58
+128 banks are on, 7552 requests are processed, 12.54
+0, 41.96, 59
+128 banks are on, 7680 requests are processed, 13.67
+0, 41.97, 60
+128 banks are on, 7808 requests are processed, 13.60
+Total number of cycles: 61
+Average number of banks that are on: 128.00
+Segmentation fault (core dumped)
