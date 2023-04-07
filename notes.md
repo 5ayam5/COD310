@@ -185,11 +185,11 @@ These parameters can be computed using an RL algorithm or can be computed analyt
 
 ### Algorithm Sketch
 1. Number of "bags" = n (number of banks)
-1. Budget 1 = P (power budget)
-1. $w_{1i} = p_i$ (power consumed by bank $i$ if it is turned on)
-1. Budget 2 = $T_X$ (experimentally determined value)
-1. $w_{2i} = \alpha T_i + (1-\alpha)f(i)$, if $T_i < T_{threshold}$ else $\infty$ ($f(i)$ is weighted average of temperature of neighbours)
-1. $c_i = activity_i$ (the cost of each bank is the memory activity)
+1. Budget 1 = $\lfloor P \times \alpha_1\rfloor$ (power budget $-$ total leakage power in off state)
+1. $w_{1i} = \lceil p_i \times \alpha_1\rceil$ (additional power consumed by bank $i$ if it is turned on)
+1. Budget 2 = $W_2$ (experimentally determined value)
+1. $w_{2i} = \lfloor\alpha_{21}\times (T_i - \beta_1)^3 + \alpha_{22}\times (p_1 - \beta_2)\rfloor$, if $T_i < T_{threshold}$ else $\infty$
+1. $c_i = activity_i$ (the cost of each bank is the number of epochs the bank was on in the last $k$ epochs)
 
 ### Time Complexity of Algorithm
 1. Since we have two constraints, the time complexity will be $O(n \times P \times T_X)$ for solving the knapsack

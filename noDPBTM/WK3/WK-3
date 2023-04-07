@@ -1,0 +1,1344 @@
+[app0] [SPLASH] Benchmarks to run: lu.cont
+[app0] 
+[app0] [SPLASH] [========== Running benchmark lu.cont ==========]
+[app0] [SPLASH] Setting up run directory: /home/shailja/workspace/sayam_work/neuromap_static_mapping/WK-3
+[app0] Directory exists, using the same
+[app1] [SPLASH] Benchmarks to run: water.nsq
+[app1] 
+[app0] [SPLASH] Running '/home/shailja/workspace/sayam_work/neuromap_static_mapping/record-trace -v --routine-tracing -o /tmp/tmpCK4kD5/run_benchmarks -e 1 -r 1 -s 0 -- /home/shailja/workspace/sayam_work/neuromap_static_mapping/WK-3/splash2/splash2/codes/kernels/lu/contiguous_blocks/LU -n512 -p32':
+[app1] [SPLASH] [========== Running benchmark water.nsq ==========]
+[app0] [SPLASH] [---------- Beginning of output ----------]
+[app2] [SPLASH] Benchmarks to run: radix
+[app1] [SPLASH] Setting up run directory: /home/shailja/workspace/sayam_work/neuromap_static_mapping/WK-3
+[app2] 
+[app1] Directory exists, using the same
+[app2] [SPLASH] [========== Running benchmark radix ==========]
+[app2] [SPLASH] Setting up run directory: /home/shailja/workspace/sayam_work/neuromap_static_mapping/WK-3
+[app2] Directory exists, using the same
+[app2] [SPLASH] Running '/home/shailja/workspace/sayam_work/neuromap_static_mapping/record-trace -v --routine-tracing -o /tmp/tmpCK4kD5/run_benchmarks -e 1 -r 1 -s 2 -- /home/shailja/workspace/sayam_work/neuromap_static_mapping/WK-3/splash2/splash2/codes/kernels/radix/RADIX -n262144 -p16':
+[app2] [SPLASH] [---------- Beginning of output ----------]
+[app1] [SPLASH] Running '/home/shailja/workspace/sayam_work/neuromap_static_mapping/record-trace -v --routine-tracing -o /tmp/tmpCK4kD5/run_benchmarks -e 1 -r 1 -s 1 -- /home/shailja/workspace/sayam_work/neuromap_static_mapping/WK-3/splash2/splash2/codes/apps/water-nsquared/WATER-NSQUARED < input':
+[app1] [SPLASH] [---------- Beginning of output ----------]
+[SNIPER] Start
+[SNIPER] Running ['bash', '-c', '/home/shailja/workspace/sayam_work/neuromap_static_mapping/lib/sniper -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/base.cfg --general/total_cores=64 --general/output_dir=/home/shailja/workspace/sayam_work/neuromap_static_mapping/WK-3 --config=/home/shailja/workspace/sayam_work/neuromap_static_mapping/config/nehalem.cfg --config=/home/shailja/workspace/sayam_work/neuromap_static_mapping/config/gainestown_HBM2E.cfg --traceinput/benchmarks=splash2-lu.cont-small-32+splash2-water.nsq-small-16+splash2-radix-small-16 --traceinput/enabled=true --traceinput/emulate_syscalls=true --traceinput/num_apps=3 --traceinput/trace_prefix=/tmp/tmpCK4kD5/run_benchmarks -g --traceinput/stop_with_first_app=false -g --traceinput/restart_apps=false -g --hooks/numscripts=1 -g --hooks/script0name=/home/shailja/workspace/sayam_work/neuromap_static_mapping/WK-3/sim.scripts.py -g --hooks/script0args=']
+[app0] [RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[app0] [SIFT_RECORDER] Running /home/shailja/workspace/sayam_work/neuromap_static_mapping/pin_kit/pin -mt -injection child -xyzzy -ifeellucky -t /home/shailja/workspace/sayam_work/neuromap_static_mapping/sift/recorder/obj-intel64/sift_recorder -verbose 1 -debug 0 -roi 0 -roi-mpi 0 -f 0 -d 0 -b 0 -o /tmp/tmpCK4kD5/run_benchmarks -e 1 -s 0 -r 1 -pa 0 -rtntrace 1 -stop 0 -- /home/shailja/workspace/sayam_work/neuromap_static_mapping/WK-3/splash2/splash2/codes/kernels/lu/contiguous_blocks/LU -n512 -p32
+[app1] [RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[app1] [SIFT_RECORDER] Running /home/shailja/workspace/sayam_work/neuromap_static_mapping/pin_kit/pin -mt -injection child -xyzzy -ifeellucky -t /home/shailja/workspace/sayam_work/neuromap_static_mapping/sift/recorder/obj-intel64/sift_recorder -verbose 1 -debug 0 -roi 0 -roi-mpi 0 -f 0 -d 0 -b 0 -o /tmp/tmpCK4kD5/run_benchmarks -e 1 -s 1 -r 1 -pa 0 -rtntrace 1 -stop 0 -- /home/shailja/workspace/sayam_work/neuromap_static_mapping/WK-3/splash2/splash2/codes/apps/water-nsquared/WATER-NSQUARED
+[app2] [RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[app2] [SIFT_RECORDER] Running /home/shailja/workspace/sayam_work/neuromap_static_mapping/pin_kit/pin -mt -injection child -xyzzy -ifeellucky -t /home/shailja/workspace/sayam_work/neuromap_static_mapping/sift/recorder/obj-intel64/sift_recorder -verbose 1 -debug 0 -roi 0 -roi-mpi 0 -f 0 -d 0 -b 0 -o /tmp/tmpCK4kD5/run_benchmarks -e 1 -s 2 -r 1 -pa 0 -rtntrace 1 -stop 0 -- /home/shailja/workspace/sayam_work/neuromap_static_mapping/WK-3/splash2/splash2/codes/kernels/radix/RADIX -n262144 -p16
+[app0] [SIFT_RECORDER:0:0] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th0.sift]
+[app0] [SIFT_RECORDER:0:0] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th0.sift]
+[app1] [SIFT_RECORDER:1:0] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th0.sift]
+[app1] [SIFT_RECORDER:1:0] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th0.sift]
+[app2] [SIFT_RECORDER:2:0] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th0.sift]
+[app2] [SIFT_RECORDER:2:0] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th0.sift]
+Executing Python script /home/shailja/workspace/sayam_work/neuromap_static_mapping/WK-3/sim.scripts.py
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/mem_hotspot.config -p power_mem.trace -o temperature_mem.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_mem.log -all_transient_file all_transient_mem.init -grid_steady_file grid_steady_mem.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type 3Dmem -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/mem.lcf -detailed_3D on
+copying files for first run
+-rw-rw-r-- 1 shailja shailja 17976 Jul 26 18:35 /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/mem.init
+-rw-rw-r-- 1 shailja shailja 10339 Jul 26 18:35 /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.init
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using SIFT/trace-driven frontend
+[SNIPER] Running full application in DETAILED mode
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Enabling performance models
+[SNIPER] Setting instrumentation mode to DETAILED
+[app2] 
+[app2] Integer Radix Sort
+[app2] 262144 Keys
+[app2] 16 Processors
+[app2] Radix = 1024
+[app2] Max key = 524288
+[app2] 
+[app2] [HOOKS] Entering ROI
+[app2] [SIFT_RECORDER:2:1] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th1.sift]
+[app2] [SIFT_RECORDER:2:1] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th1.sift]
+[app0] [SIFT_RECORDER:0:1] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th1.sift]
+[app0] [SIFT_RECORDER:0:1] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th1.sift]
+[app2] [SIFT_RECORDER:2:2] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th2.sift]
+[app2] [SIFT_RECORDER:2:2] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th2.sift]
+[app0] [SIFT_RECORDER:0:2] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th2.sift]
+[app0] [SIFT_RECORDER:0:2] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th2.sift]
+[app2] [SIFT_RECORDER:2:3] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th3.sift]
+[app2] [SIFT_RECORDER:2:3] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th3.sift]
+[app0] [SIFT_RECORDER:0:3] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th3.sift]
+[app0] [SIFT_RECORDER:0:3] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th3.sift]
+[app2] [SIFT_RECORDER:2:4] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th4.sift]
+[app2] [SIFT_RECORDER:2:4] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th4.sift]
+[app0] [SIFT_RECORDER:0:4] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th4.sift]
+[app0] [SIFT_RECORDER:0:4] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th4.sift]
+[app2] [SIFT_RECORDER:2:5] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th5.sift]
+[app2] [SIFT_RECORDER:2:5] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th5.sift]
+[app0] [SIFT_RECORDER:0:5] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th5.sift]
+[app0] [SIFT_RECORDER:0:5] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th5.sift]
+[app2] [SIFT_RECORDER:2:6] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th6.sift]
+[app2] [SIFT_RECORDER:2:6] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th6.sift]
+[app0] [SIFT_RECORDER:0:6] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th6.sift]
+[app0] [SIFT_RECORDER:0:6] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th6.sift]
+[app2] [SIFT_RECORDER:2:7] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th7.sift]
+[app2] [SIFT_RECORDER:2:7] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th7.sift]
+[app2] [SIFT_RECORDER:2:8] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th8.sift]
+[app2] [SIFT_RECORDER:2:8] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th8.sift]
+[app0] [SIFT_RECORDER:0:7] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th7.sift]
+[app0] [SIFT_RECORDER:0:7] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th7.sift]
+[app2] [SIFT_RECORDER:2:9] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th9.sift]
+[app2] [SIFT_RECORDER:2:9] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th9.sift]
+[app0] [SIFT_RECORDER:0:8] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th8.sift]
+[app0] [SIFT_RECORDER:0:8] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th8.sift]
+[app2] [SIFT_RECORDER:2:10] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th10.sift]
+[app2] [SIFT_RECORDER:2:10] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th10.sift]
+[app0] [SIFT_RECORDER:0:9] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th9.sift]
+[app0] [SIFT_RECORDER:0:9] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th9.sift]
+[app2] [SIFT_RECORDER:2:11] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th11.sift]
+[app2] [SIFT_RECORDER:2:11] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th11.sift]
+[app0] [SIFT_RECORDER:0:10] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th10.sift]
+[app0] [SIFT_RECORDER:0:10] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th10.sift]
+[app2] [SIFT_RECORDER:2:12] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th12.sift]
+[app2] [SIFT_RECORDER:2:12] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th12.sift]
+[app0] [SIFT_RECORDER:0:11] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th11.sift]
+[app0] [SIFT_RECORDER:0:11] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th11.sift]
+[app2] [SIFT_RECORDER:2:13] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th13.sift]
+[app2] [SIFT_RECORDER:2:13] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th13.sift]
+[app0] [SIFT_RECORDER:0:12] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th12.sift]
+[app0] [SIFT_RECORDER:0:12] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th12.sift]
+[app2] [SIFT_RECORDER:2:14] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th14.sift]
+[app2] [SIFT_RECORDER:2:14] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th14.sift]
+[app0] [SIFT_RECORDER:0:13] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th13.sift]
+[app0] [SIFT_RECORDER:0:13] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th13.sift]
+[app2] [SIFT_RECORDER:2:15] Output = [/tmp/tmpCK4kD5/run_benchmarks.app2.th15.sift]
+[app2] [SIFT_RECORDER:2:15] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app2.th15.sift]
+[app0] [SIFT_RECORDER:0:14] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th14.sift]
+[app0] [SIFT_RECORDER:0:14] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th14.sift]
+[app0] [SIFT_RECORDER:0:15] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th15.sift]
+[app0] [SIFT_RECORDER:0:15] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th15.sift]
+[app0] [SIFT_RECORDER:0:16] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th16.sift]
+[app0] [SIFT_RECORDER:0:16] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th16.sift]
+[app0] [SIFT_RECORDER:0:17] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th17.sift]
+[app0] [SIFT_RECORDER:0:17] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th17.sift]
+[app0] [SIFT_RECORDER:0:18] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th18.sift]
+[app0] [SIFT_RECORDER:0:18] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th18.sift]
+[app0] [SIFT_RECORDER:0:19] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th19.sift]
+[app0] [SIFT_RECORDER:0:19] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th19.sift]
+[app0] [SIFT_RECORDER:0:20] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th20.sift]
+[app0] [SIFT_RECORDER:0:20] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th20.sift]
+[app0] [SIFT_RECORDER:0:21] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th21.sift]
+[app0] [SIFT_RECORDER:0:21] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th21.sift]
+[app0] [SIFT_RECORDER:0:22] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th22.sift]
+[app0] [SIFT_RECORDER:0:22] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th22.sift]
+[app0] [SIFT_RECORDER:0:23] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th23.sift]
+[app0] [SIFT_RECORDER:0:23] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th23.sift]
+[app0] [SIFT_RECORDER:0:24] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th24.sift]
+[app0] [SIFT_RECORDER:0:24] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th24.sift]
+[app0] [SIFT_RECORDER:0:25] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th25.sift]
+[app0] [SIFT_RECORDER:0:25] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th25.sift]
+[app0] [SIFT_RECORDER:0:26] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th26.sift]
+[app0] [SIFT_RECORDER:0:26] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th26.sift]
+[app0] [SIFT_RECORDER:0:27] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th27.sift]
+[app0] [SIFT_RECORDER:0:27] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th27.sift]
+[app0] [SIFT_RECORDER:0:28] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th28.sift]
+[app0] [SIFT_RECORDER:0:28] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th28.sift]
+[app0] [SIFT_RECORDER:0:29] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th29.sift]
+[app0] [SIFT_RECORDER:0:29] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th29.sift]
+[app0] [SIFT_RECORDER:0:30] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th30.sift]
+[app0] [SIFT_RECORDER:0:30] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th30.sift]
+[app0] [SIFT_RECORDER:0:31] Output = [/tmp/tmpCK4kD5/run_benchmarks.app0.th31.sift]
+[app0] [SIFT_RECORDER:0:31] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app0.th31.sift]
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[STAT:dram.bank_write_access_counter]  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  4892 3346 1797 2706 2704 1082 934 1946 111 123 94 54 74 68 69 83 108 104 99 80 89 79 79 80 110 115 105 60 83 78 79 98 108 106 95 84 95 74 70 93 109 111 101 73 90 82 79 89 107 120 106 78 76 82 63 94 106 94 101 66 82 86 84 105 37 39 38 14 9 3 6 19 37 46 42 13 11 5 3 19 52 46 50 11 10 6 4 23 44 27 40 15 8 4 3 20 16 13 16 8 13 4 4 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4868 3092 1778 2654 2652 1108 985 1979 110 118 91 63 71 74 69 83 102 117 103 78 80 70 69 79 107 118 97 75 94 77 74 104 111 126 107 72 81 81 83 86 110 121 99 90 87 74 74 82 111 112 94 58 101 73 90 105 112 139 97 86 93 69 69 76 47 44 37 19 12 7 3 17 47 37 33 11 10 6 6 25 31 37 25 12 11 4 5 21 39 56 35 16 13 6 6 16 23 22 14 6 8 7 5 15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[STAT:dram.bank_write_access_counter]  2217 169 1541 2713 4071 2029 40 996 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2134 222 1505 2402 4033 1929 38 1018 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+[TRACE:30] -- DONE --
+[app2] [SIFT_RECORDER:2:15] Recorded 2993037 instructions
+[TRACE:24] -- DONE --
+[app2] [SIFT_RECORDER:2:12] Recorded 3005248 instructions
+[TRACE:20] -- DONE --
+[app2] [SIFT_RECORDER:2:10] Recorded 2987469 instructions
+[TRACE:9] -- DONE --
+[app2] [SIFT_RECORDER:2:4] Recorded 2993748 instructions
+[TRACE:13] -- DONE --
+[app2] [SIFT_RECORDER:2:6] Recorded 2988162 instructions
+[TRACE:22] -- DONE --
+[TRACE:5] -- DONE --
+[app2] [SIFT_RECORDER:2:11] Recorded 2981089 instructions
+[app2] [SIFT_RECORDER:2:2] Recorded 2975663 instructions
+[TRACE:15] -- DONE --
+[app2] [SIFT_RECORDER:2:7] Recorded 2981491 instructions
+[TRACE:16] -- DONE --
+[TRACE:18] -- DONE --
+[app2] [SIFT_RECORDER:2:8] Recorded 3012265 instructions
+[TRACE:28] -- DONE --
+[app2] [SIFT_RECORDER:2:9] Recorded 2968811 instructions
+[TRACE:26] -- DONE --
+[app2] [SIFT_RECORDER:2:14] Recorded 3000309 instructions
+[app2] [SIFT_RECORDER:2:13] Recorded 2981000 instructions
+[TRACE:7] -- DONE --
+[app2] [SIFT_RECORDER:2:3] Recorded 2969446 instructions
+[TRACE:11] -- DONE --
+[app2] [SIFT_RECORDER:2:5] Recorded 2969101 instructions
+[TRACE:3] -- DONE --
+[app2] [SIFT_RECORDER:2:1] Recorded 2956528 instructions
+[app2] [HOOKS] Leaving ROI
+[app2] 
+[app2] PROCESS STATISTICS
+[app2] Total Rank Sort
+[app2] Proc Time Time Time
+[app2] 0 318 172 124
+[app2] 
+[app2] TIMING INFORMATION
+[app2] Start time : -1844408211
+[app2] Initialization finish time : -1844406423
+[app2] Overall finish time : -1844406105
+[app2] Total time with initialization : 2106
+[app2] Total time without initialization : 318
+[app2] 
+[TRACE:2] -- DONE --
+[app2] [SIFT_RECORDER:2:0] Recorded 3328766 instructions
+[app2] [SPLASH] [---------- End of output ----------]
+[app2] [SPLASH] Done.
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  2262 238 1545 2482 4433 2327 411 1223 192 188 208 209 225 213 223 192 266 252 263 281 260 275 266 259 225 172 216 209 219 245 218 239 274 270 291 304 288 258 261 283 244 212 246 264 249 260 252 244 246 258 233 268 262 237 242 236 221 195 228 254 230 251 238 205 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2257 159 1604 2735 4402 2412 419 1192 205 184 220 228 205 225 211 201 270 240 265 282 263 244 279 241 207 217 230 223 224 231 246 221 279 279 292 310 289 275 278 250 248 231 242 265 255 257 274 244 257 222 270 253 229 254 273 245 258 216 244 233 239 252 227 238 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[STAT:dram.bank_write_access_counter]  2217 169 1541 2713 4071 2029 40 996 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2134 222 1505 2402 4033 1929 38 1018 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  3979 1690 228 1290 2289 366 2483 3625 114 78 97 111 131 129 130 136 51 34 55 49 55 69 67 66 65 43 76 49 84 95 82 95 69 53 34 51 48 79 85 64 75 45 55 43 62 84 79 62 54 53 61 54 66 82 106 77 97 74 88 90 88 117 96 114 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3861 1685 218 1233 2282 359 2296 3477 110 109 127 92 118 123 121 106 59 36 53 38 58 78 67 64 66 39 71 55 80 103 80 74 75 49 54 46 61 72 72 68 70 36 64 38 56 74 89 61 57 55 48 55 95 70 103 76 91 79 74 62 96 87 117 119 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[STAT:dram.bank_write_access_counter]  2492 540 339 1310 2277 306 1945 3040 35 10 19 29 25 14 27 15 40 36 19 48 61 50 55 33 48 42 41 38 48 67 49 77 57 27 31 51 51 39 36 52 38 11 23 23 15 42 25 11 57 70 55 54 61 61 90 63 22 38 10 10 21 36 26 30 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2598 589 337 1371 2348 314 2088 3183 40 16 17 28 16 25 26 33 39 33 26 57 47 41 48 36 40 45 47 26 51 60 54 80 61 36 42 51 49 57 34 37 43 13 18 33 23 35 40 11 72 73 44 57 72 61 72 58 21 31 7 10 22 44 20 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  2653 657 2111 3166 2759 533 5 1024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2570 636 2171 3064 2810 525 11 1025 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[STAT:dram.bank_write_access_counter]  1964 9 335 1249 2209 235 11 1014 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2092 23 310 1293 2177 223 5 1000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+[app0] 
+[app0] Blocked Dense LU Factorization
+[app0] 512 by 512 Matrix
+[app0] 32 Processors
+[app0] 16 by 16 Element Blocks
+[app0] 
+[app0] 
+[app0] [HOOKS] Entering ROI
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  2004 18 25 1036 3250 1572 2059 2758 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2105 28 25 1075 3362 1538 2081 2968 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[STAT:dram.bank_write_access_counter]  2073 0 1 1036 2088 1 489 1573 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1993 0 1 997 1930 5 499 1377 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+[TRACE:19] -- DONE --
+[app0] [SIFT_RECORDER:0:8] Recorded 8693764 instructions
+[TRACE:12] -- DONE --
+[app0] [SIFT_RECORDER:0:5] Recorded 7838863 instructions
+[TRACE:10] -- DONE --
+[TRACE:42] -- DONE --
+[app0] [SIFT_RECORDER:0:4] Recorded 7480628 instructions
+[app0] [SIFT_RECORDER:0:25] Recorded 7188258 instructions
+[TRACE:37] -- DONE --
+[app0] [SIFT_RECORDER:0:20] Recorded 8217621 instructions
+[TRACE:43] -- DONE --
+[app0] [SIFT_RECORDER:0:26] Recorded 7648771 instructions
+[TRACE:6] -- DONE --
+[app0] [SIFT_RECORDER:0:2] Recorded 6352772 instructions
+[TRACE:4] -- DONE --
+[app0] [SIFT_RECORDER:0:1] Recorded 6744267 instructions
+[TRACE:34] -- DONE --
+[app0] [SIFT_RECORDER:0:17] Recorded 6913011 instructions
+[TRACE:33] -- DONE --
+[app0] [SIFT_RECORDER:0:16] Recorded 9153378 instructions
+[TRACE:44] -- DONE --
+[app0] [SIFT_RECORDER:0:27] Recorded 8109318 instructions
+[TRACE:38] -- DONE --
+[TRACE:36] -- DONE --
+[app0] [SIFT_RECORDER:0:21] Recorded 8586122 instructions
+[app0] [SIFT_RECORDER:0:19] Recorded 7823960 instructions
+[TRACE:39] -- DONE --
+[app0] [SIFT_RECORDER:0:22] Recorded 8954314 instructions
+[TRACE:46] -- DONE --
+[app0] [SIFT_RECORDER:0:29] Recorded 8954660 instructions
+[TRACE:31] -- DONE --
+[app0] [SIFT_RECORDER:0:14] Recorded 8576524 instructions
+[TRACE:32] -- DONE --
+[app0] [SIFT_RECORDER:0:15] Recorded 8878297 instructions
+[TRACE:47] -- DONE --
+[app0] [SIFT_RECORDER:0:30] Recorded 9322074 instructions
+[TRACE:45] -- DONE --
+[app0] [SIFT_RECORDER:0:28] Recorded 8561103 instructions
+[TRACE:29] -- DONE --
+[app0] [SIFT_RECORDER:0:13] Recorded 8217463 instructions
+[TRACE:27] -- DONE --
+[app0] [SIFT_RECORDER:0:12] Recorded 7849332 instructions
+[TRACE:35] -- DONE --
+[app0] [SIFT_RECORDER:0:18] Recorded 7374079 instructions
+[TRACE:25] -- DONE --
+[app0] [SIFT_RECORDER:0:11] Recorded 7481226 instructions
+[TRACE:23] -- DONE --
+[app0] [SIFT_RECORDER:0:10] Recorded 7087529 instructions
+[TRACE:17] -- DONE --
+[app0] [SIFT_RECORDER:0:7] Recorded 8418247 instructions
+[TRACE:21] -- DONE --
+[app0] [SIFT_RECORDER:0:9] Recorded 6636749 instructions
+[TRACE:41] -- DONE --
+[app0] [SIFT_RECORDER:0:24] Recorded 9614781 instructions
+[TRACE:8] -- DONE --
+[app0] [SIFT_RECORDER:0:3] Recorded 7112651 instructions
+[TRACE:40] -- DONE --
+[app0] [SIFT_RECORDER:0:23] Recorded 9312805 instructions
+[TRACE:14] -- DONE --
+[app0] [SIFT_RECORDER:0:6] Recorded 8141554 instructions
+[TRACE:48] -- DONE --
+[app0] [SIFT_RECORDER:0:31] Recorded 9689769 instructions
+[app0] [HOOKS] Leaving ROI
+[app0] PROCESS STATISTICS
+[app0] Total Diagonal Perimeter Interior Barrier
+[app0] Proc Time Time Time Time Time
+[app0] 0 1850 8 80 716 1046
+[app0] 
+[app0] TIMING INFORMATION
+[app0] Start time : -1844408212
+[app0] Initialization finish time : -1844403227
+[app0] Overall finish time : -1844401368
+[app0] Total time with initialization : 6844
+[app0] Total time without initialization : 1859
+[app0] 
+[TRACE:0] -- DONE --
+[app0] [SIFT_RECORDER:0:0] Recorded 45079423 instructions
+[app0] [SPLASH] [---------- End of output ----------]
+[app0] [SPLASH] Done.
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  2656 488 108 1158 2219 60 54 1350 313 243 212 245 256 217 242 222 509 339 179 211 209 199 186 185 573 499 239 256 218 212 211 230 416 301 118 115 78 54 52 64 306 199 205 200 208 212 198 188 470 367 229 235 260 221 237 242 613 505 236 247 220 211 206 216 865 742 306 359 316 293 282 279 558 413 441 460 424 419 404 424 980 829 318 347 355 324 304 325 497 364 431 451 381 417 385 387 551 468 39 49 52 30 23 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2630 499 115 1252 2210 80 66 1405 379 265 225 221 248 260 220 227 433 400 214 206 214 190 196 186 568 490 260 252 256 226 209 218 373 317 107 120 111 60 45 80 294 209 203 214 214 177 177 192 490 422 243 234 244 250 222 230 603 530 242 250 233 210 199 204 869 710 326 339 292 261 257 282 563 429 444 455 420 401 407 401 975 800 342 348 349 324 329 337 510 388 422 441 420 367 386 389 516 447 41 53 55 35 28 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[STAT:dram.bank_write_access_counter]  2144 79 0 1053 2102 0 0 1054 171 131 20 47 40 39 29 34 137 200 46 62 63 27 31 35 141 170 43 39 54 42 31 41 226 217 71 71 57 64 35 22 185 159 34 58 41 49 45 29 161 233 57 58 52 52 46 38 139 179 48 66 44 32 43 46 127 128 14 24 0 6 1 2 28 37 31 12 0 0 0 10 151 165 25 10 0 3 1 6 38 31 30 20 0 1 0 5 10 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2188 82 0 1025 2045 0 0 1022 145 115 40 43 47 40 34 26 161 149 38 59 80 32 33 39 167 164 51 32 39 49 28 53 201 209 70 59 45 55 33 37 201 143 44 48 43 48 40 20 138 185 53 35 42 39 45 44 123 163 52 67 46 36 28 47 130 135 11 22 0 0 1 2 32 33 33 20 0 0 0 9 165 154 31 23 0 3 1 5 27 38 32 26 0 2 1 2 22 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  2264 87 406 1497 2542 274 183 1292 241 13 97 92 112 97 121 147 253 30 186 148 230 235 209 228 244 17 212 201 188 195 228 226 266 22 276 253 248 253 222 217 254 31 128 120 152 143 144 165 245 26 196 170 180 166 187 198 261 24 207 183 253 237 197 199 356 26 473 477 487 481 434 454 346 28 181 232 380 356 392 433 358 38 447 428 545 489 456 493 353 45 338 360 394 373 482 484 155 20 245 242 261 251 167 168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2204 87 403 1452 2305 279 188 1226 239 5 125 90 104 105 141 126 250 26 148 157 240 233 215 219 247 25 225 204 199 190 200 220 240 23 280 282 281 268 200 221 255 31 124 92 133 146 151 155 268 19 182 163 192 197 188 219 249 30 195 188 258 252 198 193 348 30 478 504 501 471 464 474 321 31 185 206 362 365 386 409 377 37 432 447 553 506 466 497 358 34 353 374 366 351 448 493 165 32 247 231 257 249 182 173 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[STAT:dram.bank_write_access_counter]  1979 5 44 1060 1972 0 0 995 8 8 106 110 113 97 99 84 12 7 109 120 119 107 128 123 2 17 150 127 168 150 101 160 4 0 145 177 123 148 110 115 10 9 113 112 113 126 100 67 7 6 119 113 156 121 110 105 5 8 142 115 112 144 117 133 2 0 94 102 131 124 131 137 2 0 105 131 120 138 125 142 2 0 101 107 153 137 133 151 3 0 168 168 140 145 140 158 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2052 5 52 1067 2178 1 0 1088 6 4 96 104 102 102 112 68 5 6 138 121 123 113 112 126 9 9 115 124 153 130 104 175 2 1 150 142 138 108 111 109 13 14 119 117 122 132 87 77 5 6 141 131 144 118 136 97 7 9 134 118 122 113 131 130 2 0 92 97 124 120 131 146 4 0 102 115 148 124 139 151 0 0 105 120 135 114 147 160 5 0 164 170 160 136 145 141 1 0 1 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+[app1] Using 16 procs on 3 steps of 512 mols
+[app1] Other parameters:
+[app1] TSTEP = 1.50e-16
+[app1] NORDER = 6
+[app1] NSAVE = -1
+[app1] NRST = 3000
+[app1] NPRINT = 3
+[app1] NFMC = 0
+[app1] CUTOFF = 6.212752
+[app1] 
+[app1] 
+[app1] TEMPERATURE = 298.00 K
+[app1] DENSITY = 0.99800 G/C.C.
+[app1] NUMBER OF MOLECULES = 512
+[app1] NUMBER OF PROCESSORS = 16
+[app1] TIME STEP = 1.50e-01 SEC
+[app1] ORDER USED TO SOLVE F=MA = 6
+[app1] NO. OF TIME STEPS = 3
+[app1] FREQUENCY OF DATA SAVING = -1
+[app1] FREQUENCY TO WRITE RST FILE= 3000
+[app1] SPHERICAL CUTOFF RADIUS = 6.2128 ANGSTROM
+[app1] 
+[app1] NS = 7.9999899999999995
+[app1] BOXL = 24.851010
+[app1] CUTOFF = 6.212752
+[app1] XS = 3.106380
+[app1] ZERO = 1.55319
+[app1] WCOS = 0.585882
+[app1] WSIN = 0.756950
+[app1] ***** NEW RUN STARTING FROM REGULAR LATTICE all_transient_core.init all_transient_mem.init app_0.log apps bankStateData.txt benchmark-app0-run0.log benchmark-app10-run0.log benchmark-app11-run0.log benchmark-app12-run0.log benchmark-app13-run0.log benchmark-app14-run0.log benchmark-app15-run0.log benchmark-app16-run0.log benchmark-app17-run0.log benchmark-app18-run0.log benchmark-app19-run0.log benchmark-app1-run0.log benchmark-app20-run0.log benchmark-app21-run0.log benchmark-app22-run0.log benchmark-app23-run0.log benchmark-app2-run0.log benchmark-app3-run0.log benchmark-app4-run0.log benchmark-app5-run0.log benchmark-app6-run0.log benchmark-app7-run0.log benchmark-app8-run0.log benchmark-app9-run0.log blackscholes_baseline combined_instpower.trace combined_insttemperature.trace combined_power.trace combined_temperature.trace core cpu2006 dedup_baseline energystats-temp.cfg energystats-temp.py energystats-temp.txt energystats-temp.xml full_power_core.trace full_power_mem.trace full_temperature_core.trace full_temperature_mem.trace grid_steady_core.log grid_steady_mem.log hotspot input install_cpu2006 InstantaneousCPIStack.log jikes kernels leakage_power_mem.txt local Makefile npb parsec PeriodicCPIStack.log PeriodicFrequency.log PeriodicVdd.log power_core.trace power_mem.trace random.in run-sniper sim_0.log sim.cfg sim.scripts.py sim.stats.sqlite3 splash2 steady_temperature_core.log steady_temperature_mem.log suites.py suites.pyc temperature_core.init temperature_core.trace temperature_mem.init temperature_mem.trace TemPo_results test_case_1_baseline test_case_3_baseline tools vulture_2336x2336.v WK-3
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  2358 23 20 1194 2324 0 0 1188 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1696 7 12 882 1705 0 0 857 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[STAT:dram.bank_write_access_counter]  1680 0 3 847 1699 0 0 832 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2342 0 5 1168 2318 0 0 1177 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  1040 171 148 584 1047 183 176 617 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 797 157 155 476 819 188 177 499 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[STAT:dram.bank_write_access_counter]  654 5 14 335 653 1 4 328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 891 6 9 448 875 1 7 454 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  58 53 52 56 56 58 57 57 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 55 53 52 50 56 59 52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[STAT:dram.bank_write_access_counter]  3 1 2 3 3 0 5 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 1 2 7 10 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  58 55 53 52 54 52 54 60 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 51 54 55 52 56 54 57 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[STAT:dram.bank_write_access_counter]  6 1 3 5 7 0 2 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 3 1 4 6 0 5 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+[app1] [HOOKS] Entering ROI
+[app1] [SIFT_RECORDER:1:1] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th1.sift]
+[app1] [SIFT_RECORDER:1:1] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th1.sift]
+[app1] [SIFT_RECORDER:1:2] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th2.sift]
+[app1] [SIFT_RECORDER:1:2] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th2.sift]
+[app1] [SIFT_RECORDER:1:3] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th3.sift]
+[app1] [SIFT_RECORDER:1:3] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th3.sift]
+[app1] [SIFT_RECORDER:1:4] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th4.sift]
+[app1] [SIFT_RECORDER:1:4] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th4.sift]
+[app1] [SIFT_RECORDER:1:5] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th5.sift]
+[app1] [SIFT_RECORDER:1:5] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th5.sift]
+[app1] [SIFT_RECORDER:1:6] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th6.sift]
+[app1] [SIFT_RECORDER:1:6] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th6.sift]
+[app1] [SIFT_RECORDER:1:7] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th7.sift]
+[app1] [SIFT_RECORDER:1:7] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th7.sift]
+[app1] [SIFT_RECORDER:1:8] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th8.sift]
+[app1] [SIFT_RECORDER:1:8] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th8.sift]
+[app1] [SIFT_RECORDER:1:9] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th9.sift]
+[app1] [SIFT_RECORDER:1:9] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th9.sift]
+[app1] [SIFT_RECORDER:1:10] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th10.sift]
+[app1] [SIFT_RECORDER:1:10] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th10.sift]
+[app1] [SIFT_RECORDER:1:11] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th11.sift]
+[app1] [SIFT_RECORDER:1:11] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th11.sift]
+[app1] [SIFT_RECORDER:1:12] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th12.sift]
+[app1] [SIFT_RECORDER:1:12] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th12.sift]
+[app1] [SIFT_RECORDER:1:13] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th13.sift]
+[app1] [SIFT_RECORDER:1:13] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th13.sift]
+[app1] [SIFT_RECORDER:1:14] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th14.sift]
+[app1] [SIFT_RECORDER:1:14] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th14.sift]
+[app1] [SIFT_RECORDER:1:15] Output = [/tmp/tmpCK4kD5/run_benchmarks.app1.th15.sift]
+[app1] [SIFT_RECORDER:1:15] Response = [/tmp/tmpCK4kD5/run_benchmarks_response.app1.th15.sift]
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  63 59 56 52 50 52 55 56 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 46 59 57 55 57 54 52 51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[STAT:dram.bank_write_access_counter]  2 2 3 10 10 0 3 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 5 3 5 4 0 5 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  833 117 120 89 837 96 82 118 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2866 91 97 93 2908 36 31 30 3823 86 87 95 3856 39 27 36 3843 91 109 104 3833 31 27 52 3586 49 89 78 3662 40 37 48 832 108 96 112 866 107 67 115 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2900 100 91 94 2914 30 29 44 3888 70 101 108 3971 30 31 31 3781 86 109 116 3839 40 35 33 3583 59 79 88 3593 36 35 42
+[STAT:dram.bank_write_access_counter]  239 0 0 0 466 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 854 0 0 0 1732 0 0 0 1283 0 0 0 2486 0 0 0 1281 0 0 0 2439 0 0 0 1384 0 0 0 2715 0 0 0 231 0 0 1 465 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 873 0 0 0 1703 1 0 0 1195 0 0 0 2450 0 0 0 1209 0 0 0 2505 0 0 0 1339 0 0 0 2692 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  758 5 2 10 806 5 7 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2684 3 2 5 2735 7 11 6 3702 6 3 9 3788 7 3 5 3669 4 2 2 3770 11 3 4 3923 4 4 3 4010 6 5 4 788 6 2 4 798 9 4 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2613 2 2 6 2693 9 8 4 3722 4 5 4 3800 6 3 6 3771 4 2 9 3808 11 6 4 4026 4 4 1 4042 4 4 5
+[STAT:dram.bank_write_access_counter]  239 0 0 0 466 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 854 0 0 0 1732 0 0 0 1283 0 0 0 2486 0 0 0 1281 0 0 0 2439 0 0 0 1384 0 0 0 2715 0 0 0 231 0 0 1 465 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 873 0 0 0 1703 1 0 0 1195 0 0 0 2450 0 0 0 1209 0 0 0 2505 0 0 0 1339 0 0 0 2692 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  479 26 23 18 515 21 19 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2277 15 16 14 2416 14 15 18 3018 19 17 15 3129 13 13 15 3038 18 19 13 3067 15 14 15 2750 33 23 25 2801 31 27 23 508 19 17 19 553 17 16 21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2278 21 16 15 2284 17 15 13 3081 16 14 16 3199 18 17 14 3047 15 9 16 3148 16 16 16 2779 24 34 29 2821 20 26 28
+[STAT:dram.bank_write_access_counter]  252 0 0 0 511 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1100 0 0 0 2245 0 0 0 1516 0 0 0 3060 0 0 0 1502 0 0 0 3012 0 0 0 1395 0 0 0 2694 0 0 0 237 0 0 0 483 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1134 0 0 0 2231 0 0 0 1497 0 0 0 2994 0 0 0 1494 0 0 0 3003 0 0 0 1310 0 0 0 2713 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  951 14 25 23 1003 21 14 19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3233 18 8 16 3334 11 14 15 4335 20 13 17 4497 16 14 20 4498 19 15 15 4495 13 13 16 4569 29 29 28 4750 27 25 23 998 21 15 21 1010 20 19 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3213 17 15 20 3289 22 15 17 4417 17 15 16 4448 15 12 13 4380 18 11 15 4514 16 15 15 4682 30 25 30 4625 26 28 31
+[STAT:dram.bank_write_access_counter]  332 0 0 0 685 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1165 0 0 0 2290 0 0 0 1588 0 0 0 3162 0 0 0 1618 0 0 0 3217 0 0 0 1699 0 0 0 3409 0 0 0 337 0 0 0 655 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1164 0 0 0 2354 0 0 0 1592 0 0 0 3181 0 0 0 1635 0 0 0 3254 0 0 0 1702 0 0 0 3362 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  553 3 1 5 599 5 2 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 2 5 1 2344 2 4 2 3185 2 7 2 3373 3 4 1 2672 2 4 2 2742 3 4 3 2085 2 4 3 2149 0 3 1 576 5 3 3 596 4 5 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2364 2 3 3 2454 2 7 3 3187 2 4 3 3255 1 4 3 2592 2 5 2 2680 3 5 2 2092 2 3 2 2137 4 5 3
+[STAT:dram.bank_write_access_counter]  151 0 0 0 327 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 818 0 0 0 1640 0 0 0 1198 0 0 0 2364 0 0 0 1135 0 0 0 2266 0 0 0 971 0 0 0 2013 0 0 0 160 0 0 0 294 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 835 0 0 0 1664 0 0 0 1142 0 0 0 2320 0 0 0 1137 0 0 0 2277 0 0 0 1043 0 0 0 2014 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  703 20 20 20 745 18 20 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2763 14 13 13 2779 16 17 12 3748 18 12 13 3798 13 15 13 4288 15 12 15 4312 12 12 13 4731 28 24 26 4663 26 29 23 714 17 23 13 740 16 16 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2763 17 14 15 2847 13 11 18 3722 11 14 16 3840 16 15 14 4210 14 12 12 4295 17 18 19 4695 26 33 28 4893 23 23 29
+[STAT:dram.bank_write_access_counter]  347 0 0 0 697 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1203 0 0 0 2446 0 0 0 1637 0 0 0 3337 0 0 0 1673 0 0 0 3374 0 0 0 1759 0 0 0 3464 0 0 0 316 0 0 0 639 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1236 0 0 0 2430 0 0 0 1676 0 0 0 3297 0 0 0 1665 0 0 0 3278 0 0 0 1727 0 0 0 3476 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+/home/shailja/workspace/sayam_work/neuromap_static_mapping/hotspot_tool/hotspot -c /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores_hotspot.config -p power_core.trace -o temperature_core.trace -model_secondary 1 -model_type grid  -steady_file steady_temperature_core.log -all_transient_file all_transient_core.init -grid_steady_file grid_steady_core.log -steady_state_print_disable 1  -l 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,  -type Core  -sampling_intvl 0.001 -grid_layer_file /home/shailja/workspace/sayam_work/neuromap_static_mapping/config/hotspot/3Dmem_neuromap_64cores/cores.lcf -v 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1 -detailed_3D on -init_file temperature_core.init
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 13
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Arch type: Core
+Arch type : Core
+Arch type: Core
+Arch type: Core
+Arch type: Core
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_core.init
+Unit	Steady(Kelvin)
+[STAT:dram.bank_read_access_counter]  485 2 2 3 490 4 2 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2010 1 4 1 2063 1 5 1 2910 2 4 1 2885 3 2 2 2844 1 3 2 2920 3 3 2 2788 2 4 2 3051 1 4 3 471 2 0 5 507 4 2 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2025 1 4 3 2119 4 5 1 2689 2 4 1 2898 1 2 3 2848 1 3 2 2931 1 5 2 3058 2 4 2 2912 3 4 1
+[STAT:dram.bank_write_access_counter]  118 0 0 0 224 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 583 0 0 0 1155 0 0 0 805 0 0 0 1603 0 0 0 855 0 0 0 1677 0 0 0 899 0 0 0 1799 0 0 0 103 0 0 0 216 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 563 0 0 0 1121 0 0 0 829 0 0 0 1650 0 0 0 828 0 0 0 1672 0 0 0 916 0 0 0 1803 0 0 0
+idx = 9
+table[idx].value = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+idx = 14
+table[idx].value = 1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1,1.1
+Warning: transient leakage iteration is not supported in this release...
+ ...all transient results are without thermal-leakage loop.
+flp_file= 
+do_detailed_3D= 1
+In compute_temp
+Memory type 3Dmem/DDR: 3Dmem
+Arch type : 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+Memory type 3Dmem/DDR: 3Dmem
+leak_convg_true
+Dumping transient temperatures for init in file all_transient_mem.init
+Unit	Steady(Kelvin)
+[TRACE:52] -- DONE --
+[app1] [SIFT_RECORDER:1:4] Recorded 26687531 instructions
+[TRACE:54] -- DONE --
+[TRACE:55] -- DONE --
+[app1] [SIFT_RECORDER:1:6] Recorded 26717073 instruction[SIFT_sRECORDER:
+[app1] 1:7] Recorded 26584132 instructions
+[TRACE:60] -- DONE --
+[app1] [SIFT_RECORDER:1:12] Recorded 29239421 instructions
+[TRACE:61] -- DONE --
+[app1] [SIFT_RECORDER:1:13] Recorded 29130392 instructions
+[TRACE:56] -- DONE --
+[app1] [SIFT_RECORDER:1:8] Recorded 26691800 instructions
+[TRACE:58] -- DONE --
+[app1] [SIFT_RECORDER:1:10] Recorded 27987613 instructions
+[TRACE:59] -- DONE --
+[app1] [SIFT_RECORDER:1:11] Recorded 27830376 instructions
+[TRACE:49] -- DONE --
+[app1] [SIFT_RECORDER:1:1] Recorded 26687961 instructions
+[TRACE:63] -- DONE --
+[app1] [SIFT_RECORDER:1:15] Recorded 30392717 instructions
+[TRACE:53] -- DONE --
+[app1] [SIFT_RECORDER:1:5] Recorded 26599487 instructions
+[TRACE:62] -- DONE --
+[app1] [SIFT_RECORDER:1:14] Recorded 30545814 instructions
+[TRACE:51] -- DONE --
+[app1] [SIFT_RECORDER:1:3] Recorded 26604011 instructions
+[TRACE:57] -- DONE --
+[app1] [SIFT_RECORDER:1:9] Recorded 26511554 instructions
+[TRACE:50] -- DONE --
+[app1] [SIFT_RECORDER:1:2] Recorded 26534157 instructions
+[app1] CREATETIME = 11
+[app1] 3 1.56363 0.05504 10.58529 -2.17835
+[app1] 10.026 304.35093 -19.57001
+[app1] [HOOKS] Leaving ROI
+[app1] COMPUTESTART (after initialization) = 2450571118
+[app1] COMPUTEEND = 2450579245
+[app1] COMPUTETIME (after initialization) = 8127
+[app1] Measured Time (2nd timestep onward) = 4684
+[app1] Intramolecular time only (2nd timestep onward) = 61
+[app1] Intermolecular time only (2nd timestep onward) = 4606
+[app1] Other time (2nd timestep onward) = 17
+[app1] 
+[app1] Exited Happily with XTT = 10.0256 (note: XTT value is garbage if NPRINT > NSTEP)
+[TRACE:1] -- DONE --
+[app1] [SIFT_RECORDER:1:0] Recorded 59076443 instructions
+[app1] [SPLASH] [---------- End of output ----------]
+[app1] [SPLASH] Done.
+
+   	Time	#READs	#WRITEs	#Access		Bank Counters
+
+
+@& 	1000	50225	21145	71370		8406, 5127, 2326, 4046, 4346, 1203, 1083, 2965, 111, 123, 94, 54, 74, 68, 69, 83, 108, 104, 99, 80, 89, 79, 79, 80, 110, 115, 105, 60, 83, 78, 79, 98, 108, 106, 95, 84, 95, 74, 70, 93, 109, 111, 101, 73, 90, 82, 79, 89, 107, 120, 106, 78, 76, 82, 63, 94, 110, 101, 102, 66, 82, 86, 84, 105, 59, 58, 52, 14, 9, 3, 6, 19, 72, 78, 69, 13, 11, 5, 3, 19, 68, 71, 75, 11, 10, 6, 4, 23, 72, 71, 68, 15, 8, 4, 3, 20, 26, 29, 26, 8, 13, 4, 4, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8439, 4945, 2306, 4027, 4411, 1255, 1126, 2946, 110, 118, 91, 63, 71, 74, 69, 83, 102, 117, 103, 78, 80, 70, 69, 79, 107, 118, 97, 75, 94, 77, 74, 104, 111, 126, 107, 72, 81, 81, 83, 86, 110, 121, 99, 90, 87, 74, 74, 82, 111, 112, 94, 58, 101, 73, 90, 105, 115, 145, 102, 86, 93, 69, 69, 76, 56, 57, 47, 19, 12, 7, 3, 17, 72, 69, 66, 11, 10, 6, 6, 25, 75, 76, 60, 12, 11, 4, 5, 21, 71, 76, 67, 16, 13, 6, 6, 16, 28, 22, 19, 6, 8, 7, 5, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+@& 	2000	57351	27064	84415		4479, 407, 3086, 5195, 8504, 4356, 451, 2219, 192, 189, 208, 209, 225, 213, 223, 192, 266, 252, 263, 281, 260, 275, 266, 259, 225, 172, 216, 209, 219, 245, 218, 239, 274, 272, 291, 305, 288, 258, 261, 283, 244, 212, 246, 264, 249, 260, 252, 244, 246, 258, 233, 268, 262, 237, 242, 236, 221, 195, 228, 254, 230, 251, 238, 205, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4391, 381, 3109, 5137, 8435, 4341, 457, 2210, 205, 184, 220, 228, 205, 225, 211, 201, 270, 240, 265, 282, 263, 244, 279, 241, 207, 217, 230, 223, 224, 231, 246, 221, 279, 280, 293, 310, 290, 275, 278, 250, 248, 231, 242, 265, 255, 257, 274, 244, 257, 222, 270, 253, 229, 254, 273, 245, 258, 216, 244, 233, 239, 252, 227, 238, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+@& 	3000	39822	29449	69271		6471, 2230, 567, 2600, 4566, 672, 4428, 6665, 149, 88, 116, 140, 156, 143, 157, 151, 91, 70, 74, 97, 116, 119, 122, 99, 113, 85, 117, 87, 132, 162, 131, 172, 126, 80, 65, 102, 99, 118, 121, 116, 113, 56, 78, 66, 77, 126, 104, 73, 111, 123, 116, 108, 127, 143, 196, 140, 119, 112, 98, 100, 109, 153, 122, 144, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6459, 2274, 555, 2604, 4630, 673, 4384, 6660, 150, 125, 144, 120, 134, 148, 147, 139, 98, 69, 79, 95, 105, 119, 115, 100, 106, 84, 118, 81, 131, 163, 134, 154, 136, 85, 96, 97, 110, 129, 106, 105, 113, 49, 82, 71, 79, 109, 129, 72, 129, 128, 92, 112, 167, 131, 175, 134, 112, 110, 81, 72, 118, 131, 137, 151, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+@& 	4000	25720	14149	39869		4617, 666, 2446, 4415, 4968, 768, 16, 2038, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4662, 659, 2481, 4357, 4987, 748, 16, 2025, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+@& 	5000	25904	14063	39967		4077, 18, 26, 2072, 5338, 1573, 2548, 4331, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4098, 28, 26, 2072, 5292, 1543, 2580, 4345, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+@& 	6000	75156	23128	98284		4800, 567, 108, 2211, 4321, 60, 54, 2404, 484, 374, 232, 292, 296, 256, 271, 256, 646, 539, 225, 273, 272, 226, 217, 220, 714, 669, 282, 295, 272, 254, 242, 271, 642, 518, 189, 186, 135, 118, 87, 86, 491, 358, 239, 258, 249, 261, 243, 217, 631, 600, 286, 293, 312, 273, 283, 280, 752, 684, 284, 313, 264, 243, 249, 262, 992, 870, 320, 383, 316, 299, 283, 281, 586, 450, 472, 472, 424, 419, 404, 434, 1131, 994, 343, 357, 355, 327, 305, 331, 535, 395, 461, 471, 381, 418, 385, 392, 561, 480, 39, 49, 52, 30, 23, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4818, 581, 115, 2277, 4255, 80, 66, 2427, 524, 380, 265, 264, 295, 300, 254, 253, 594, 549, 252, 265, 294, 222, 229, 225, 735, 654, 311, 284, 295, 275, 237, 271, 574, 526, 177, 179, 156, 115, 78, 117, 495, 352, 247, 262, 257, 225, 217, 212, 628, 607, 296, 269, 286, 289, 267, 274, 726, 693, 294, 317, 279, 246, 227, 251, 999, 845, 337, 361, 292, 261, 258, 284, 595, 462, 477, 475, 420, 401, 407, 410, 1140, 954, 373, 371, 349, 327, 330, 342, 537, 426, 454, 467, 420, 369, 387, 391, 538, 460, 41, 53, 55, 35, 28, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+@& 	7000	62559	29248	91807		4243, 92, 450, 2557, 4514, 274, 183, 2287, 249, 21, 203, 202, 225, 194, 220, 231, 265, 37, 295, 268, 349, 342, 337, 351, 246, 34, 362, 328, 356, 345, 329, 386, 270, 22, 421, 430, 371, 401, 332, 332, 264, 40, 241, 232, 265, 269, 244, 232, 252, 32, 315, 283, 336, 287, 297, 303, 266, 32, 349, 298, 365, 381, 314, 332, 358, 26, 567, 579, 618, 605, 565, 591, 348, 28, 286, 363, 500, 494, 517, 575, 360, 38, 548, 535, 698, 626, 589, 644, 356, 45, 506, 528, 534, 518, 622, 642, 155, 20, 246, 243, 261, 251, 167, 168, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4256, 92, 455, 2519, 4483, 280, 188, 2314, 245, 9, 221, 194, 206, 207, 253, 194, 255, 32, 286, 278, 363, 346, 327, 345, 256, 34, 340, 328, 352, 320, 304, 395, 242, 24, 430, 424, 419, 376, 311, 330, 268, 45, 243, 209, 255, 278, 238, 232, 273, 25, 323, 294, 336, 315, 324, 316, 256, 39, 329, 306, 380, 365, 329, 323, 350, 30, 570, 601, 625, 591, 595, 620, 325, 31, 287, 321, 510, 489, 525, 560, 377, 37, 537, 567, 688, 620, 613, 657, 363, 34, 517, 544, 526, 487, 593, 634, 166, 32, 248, 240, 257, 249, 182, 173, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+@& 	8000	12266	12071	24337		4038, 23, 23, 2041, 4023, 0, 0, 2020, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4038, 7, 17, 2050, 4023, 0, 0, 2034, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+@& 	9000	7234	4685	11919		1694, 176, 162, 919, 1700, 184, 180, 945, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1688, 163, 164, 924, 1694, 189, 184, 953, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+@& 	10000	872	63	935		61, 54, 54, 59, 59, 58, 62, 61, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 58, 56, 55, 59, 60, 56, 63, 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+@& 	11000	873	64	937		64, 56, 56, 57, 61, 52, 56, 66, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 54, 55, 59, 58, 56, 59, 63, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+@& 	12000	874	75	949		65, 61, 59, 62, 60, 52, 58, 58, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 58, 64, 60, 60, 61, 54, 57, 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+
+@& 	13000	64461	43033	107494		1247, 128, 129, 99, 1588, 101, 90, 134, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4241, 91, 97, 93, 5650, 36, 31, 30, 5696, 86, 87, 95, 7547, 39, 27, 36, 5694, 91, 109, 104, 7522, 31, 27, 52, 5277, 49, 89, 78, 7101, 40, 37, 48, 1195, 114, 108, 121, 1608, 115, 77, 131, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4254, 100, 92, 94, 5633, 30, 29, 44, 5730, 70, 101, 108, 7719, 30, 31, 31, 5577, 86, 109, 116, 7445, 40, 35, 33, 5349, 59, 79, 88, 7053, 36, 35, 42, 
+
+@& 	14000	60208	29543	89751		997, 5, 2, 10, 1272, 5, 7, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3538, 3, 2, 5, 4467, 7, 11, 6, 4985, 6, 3, 9, 6274, 7, 3, 5, 4950, 4, 2, 2, 6209, 11, 3, 4, 5307, 4, 4, 3, 6725, 6, 5, 4, 1019, 6, 2, 5, 1263, 9, 4, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3486, 2, 2, 6, 4396, 10, 8, 4, 4917, 4, 5, 4, 6250, 6, 3, 6, 4980, 4, 2, 9, 6313, 11, 6, 4, 5365, 4, 4, 1, 6734, 4, 4, 5, 
+
+@& 	15000	48302	34383	82685		731, 26, 23, 18, 1026, 21, 19, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3377, 15, 16, 14, 4661, 14, 15, 18, 4534, 19, 17, 15, 6189, 13, 13, 15, 4540, 18, 19, 13, 6079, 15, 14, 15, 4145, 33, 23, 25, 5495, 31, 27, 23, 745, 19, 17, 19, 1036, 17, 16, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3412, 21, 16, 15, 4515, 17, 15, 13, 4578, 16, 14, 16, 6193, 18, 17, 14, 4541, 15, 9, 16, 6151, 16, 16, 16, 4089, 24, 34, 29, 5534, 20, 26, 28, 
+
+@& 	16000	72359	38401	110760		1283, 14, 25, 23, 1688, 21, 14, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4398, 18, 8, 16, 5624, 11, 14, 15, 5923, 20, 13, 17, 7659, 16, 14, 20, 6116, 19, 15, 15, 7712, 13, 13, 16, 6268, 29, 29, 28, 8159, 27, 25, 23, 1335, 21, 15, 21, 1665, 20, 19, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4377, 17, 15, 20, 5643, 22, 15, 17, 6009, 17, 15, 16, 7629, 15, 12, 13, 6015, 18, 11, 15, 7768, 16, 15, 15, 6384, 30, 25, 30, 7987, 26, 28, 31, 
+
+@& 	17000	44067	25769	69836		704, 3, 1, 5, 926, 5, 2, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3062, 2, 5, 1, 3984, 2, 4, 2, 4383, 2, 7, 2, 5737, 3, 4, 1, 3807, 2, 4, 2, 5008, 3, 4, 3, 3056, 2, 4, 3, 4162, 0, 3, 1, 736, 5, 3, 3, 890, 4, 5, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3199, 2, 3, 3, 4118, 2, 7, 3, 4329, 2, 4, 3, 5575, 1, 4, 3, 3729, 2, 5, 2, 4957, 3, 5, 2, 3135, 2, 3, 2, 4151, 4, 5, 3, 
+
+@& 	18000	66301	39677	105978		1050, 20, 20, 20, 1442, 18, 20, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3966, 14, 13, 13, 5225, 16, 17, 12, 5385, 18, 12, 13, 7135, 13, 15, 13, 5961, 15, 12, 15, 7686, 12, 12, 13, 6490, 28, 24, 26, 8127, 26, 29, 23, 1030, 17, 23, 13, 1379, 16, 16, 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3999, 17, 14, 15, 5277, 13, 11, 18, 5398, 11, 14, 16, 7137, 16, 15, 14, 5875, 14, 12, 12, 7573, 17, 18, 19, 6422, 26, 33, 28, 8369, 23, 23, 29, 
+
+@& 	19000	45056	19419	64475		603, 2, 2, 3, 714, 4, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2593, 1, 4, 1, 3218, 1, 5, 1, 3715, 2, 4, 1, 4488, 3, 2, 2, 3699, 1, 3, 2, 4597, 3, 3, 2, 3687, 2, 4, 2, 4850, 1, 4, 3, 574, 2, 0, 5, 723, 4, 2, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2588, 1, 4, 3, 3240, 4, 5, 1, 3518, 2, 4, 1, 4548, 1, 2, 3, 3676, 1, 3, 2, 4603, 1, 5, 2, 3974, 2, 4, 2, 4715, 3, 4, 1, 
+
+@& 	20000	2308	0	2308		25, 32, 22, 20, 33, 28, 26, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19, 18, 23, 15, 33, 28, 24, 21, 20, 18, 25, 17, 34, 15, 21, 23, 23, 19, 23, 18, 26, 29, 25, 25, 90, 23, 32, 28, 140, 32, 29, 23, 22, 20, 26, 21, 28, 29, 27, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 24, 22, 16, 25, 20, 26, 25, 29, 25, 23, 14, 31, 16, 20, 23, 22, 22, 23, 13, 37, 19, 23, 21, 127, 32, 31, 26, 99, 36, 31, 28, Hey Shailja, your relevant data starts here
+71370
+84415
+69271
+39869
+39967
+98284
+91807
+24337
+11919
+935
+937
+949
+107494
+89751
+82685
+110760
+69836
+105978
+64475
+2308
+
+
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 637.31 seconds
+[SNIPER] Simulated 817.9M instructions, 73.0M cycles, 11.20 IPC
+[SNIPER] Simulation speed 1283.3 KIPS (20.1 KIPS / target core - 49870.5ns/instr)
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+
+Total number of DRAM read requests = 762899 
+
+Total number of DRAM write requests = 405448 
+
+
+Total number of thermal stalls = 0 
+
+[SNIPER] End
+[SNIPER] Elapsed time: 637.05 seconds
