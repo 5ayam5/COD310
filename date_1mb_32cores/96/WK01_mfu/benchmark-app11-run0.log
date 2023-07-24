@@ -1,0 +1,11 @@
+[SNIPER] Running ['/home/sayam/fresh_TemPo/record-trace', '-o', '/tmp/tmpxZKbpj/run_benchmarks', '-v', '-e', '0', '-s', '11', '-r', '1', '--pinball', '/home/sayam/fresh_TemPo/test/SPEC/benchmarks/lbm/lbm.try_30208_t0r8_warmup101500_prolog0_region100000059_epilog0_008_0-69692.0', '--outputdir', '/home/sayam/fresh_TemPo/test/SPEC/benchmarks/date_1mb_32cores/96/WK01_mfu']
+[RECORD-TRACE] Using the Pin frontend (sift/recorder)
+[SIFT_RECORDER] Running /home/sayam/fresh_TemPo/pin_kit/pin -mt -injection child -xyzzy -ifeellucky -xyzzy -reserve_memory "/home/sayam/fresh_TemPo/test/SPEC/benchmarks/lbm/lbm.try_30208_t0r8_warmup101500_prolog0_region100000059_epilog0_008_0-69692.0.address" -t /home/sayam/fresh_TemPo/sift/recorder/obj-intel64/sift_recorder -verbose 1 -debug 0 -roi 0 -roi-mpi 0 -f 0 -d 0 -b 0 -o /tmp/tmpxZKbpj/run_benchmarks -e 0 -s 11 -r 1 -pa 0 -rtntrace 0 -stop 0 -replay -replay:basename "/home/sayam/fresh_TemPo/test/SPEC/benchmarks/lbm/lbm.try_30208_t0r8_warmup101500_prolog0_region100000059_epilog0_008_0-69692.0" -pinplay:msgfile "/home/sayam/fresh_TemPo/test/SPEC/benchmarks/date_1mb_32cores/96/WK01_mfu/pinball_replay.app11" -replay:resultfile "/home/sayam/fresh_TemPo/test/SPEC/benchmarks/date_1mb_32cores/96/WK01_mfu/pinball_result.app11" -- /home/sayam/fresh_TemPo/pin_kit/extras/pinplay/bin/intel64/nullapp
+[SIFT_RECORDER:11:0] Output = [/tmp/tmpxZKbpj/run_benchmarks.app11.th0.sift]
+[SIFT_RECORDER:11:0] Response = [/tmp/tmpxZKbpj/run_benchmarks_response.app11.th0.sift]
+[SIFT_RECORDER:11:0] Recorded 100101523[SIF instrT_RECOuctionRsDER:
+11:0] Recorded 100101523 instructions
+[SIFT_RECORDER] Failed to print backtrace.
+[SIFT_RECORDER] Internal exception:Exception Code: ACCESS_INVALID_ADDRESS. Exception Address = 0x7f691cbadddc. Access Type: UNKNOWN. Access Address = 0x000000000
+C: Tool (or Pin) caused signal 11 at PC 0x7f691cbadddc
+Pin app terminated abnormally due to signal 11.

@@ -1,0 +1,25 @@
+Enabled messages [UnixVersion()] 63  info: Informational messages (enabled by default)
+Pinball basename: /home/sayam/fresh_TemPo/test/SPEC/benchmarks/nab/nab.try_6816_t0r9_warmup101500_prolog0_region100000017_epilog0_009_0-34240.0
+Replaying on 'Linux', recorded on 'Linux'
+Focus thread: 0
+Found VDSO in page 0x7fffcc36d000
+NOP sequence address allocated in empty range 0x000402000 
+Preloaded images: 4
+Setting image replay mode in Pin.
+[0] Started Replaying thread OSPid: 1172838 OSTid: 1172838
+[0] Restoring initial pages
+Replay preloaded image: /export/djy/cpu2017/cpu2017/ref_build/nab_s/nab_s_base.refspeed.gcc48-64bit-m64 Image index: 0
+Replay preloaded image: /lib64/ld-linux-x86-64.so.2 Image index: 1
+Replay preloaded image: /lib/x86_64-linux-gnu/libm.so.6 Image index: 2
+Replay preloaded image: /lib/x86_64-linux-gnu/libc.so.6 Image index: 3
+[0] Thread replayer initialized
+[0] Mapping stack address, pin tid 0
+[0] All threads were created, ready to replay 
+[0] Restoring Initial checkpoint before PC:0x000406721 ctxt: 0x7ff5a109e000
+[0] Replayer ThreadStart Initial IP: 0x000406721
+[0] Replayer End of thread reached: 100101478 final count: 100101478
+[0] Wait for all threads to finish 
+[0] Finished replaying thread OSPid: 1172838 OSTid: 1172838, 100101478 instructions
+[0] ThreadFini in Replayer
+Process exit with status 0
+Closing message file
