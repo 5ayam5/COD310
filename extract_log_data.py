@@ -22,28 +22,34 @@ def extract_log(file, budget):
 
         epoch = 0
         count = 0
+        channel_count = defaultdict(bool)
         channel_status = defaultdict(list)
         power_used = []
-        on_count = []
+        pseudochannel_on_count = []
+        channel_on_count = []
 
         for line in lines:
             if line.startswith("Power available:"):
                 if epoch != 0:
                     if count == 0:
                         break
-                    on_count.append(count)
+                    pseudochannel_on_count.append(count)
+                    channel_on_count.append(sum(channel_count.values()))
                 count = 0
+                channel_count = defaultdict(bool)
                 epoch += 1
             elif line.startswith("Channel"):
                 channel = int(line.split()[1])
                 channel_status[channel].append(epoch)
-                count += 1
+                count += 2
+                channel_count[channel // 2] = True
             elif line.startswith("Remaining power:"):
                 power_used.append(budget - max(0, float(line.split()[2])))
-        
-        on_count.append(count)
 
-    return channel_status, power_used, on_count, epoch
+        pseudochannel_on_count.append(count)
+        channel_on_count.append(sum(channel_count.values()))
+
+    return channel_status, power_used, pseudochannel_on_count, channel_on_count, epoch
 
 def extract_workload(directory, budget, workload):
     folders = glob(join(directory, f"WK{workload:02d}_*"))
@@ -51,21 +57,23 @@ def extract_workload(directory, budget, workload):
 
     channels = defaultdict(defaultdict)
     powers = defaultdict(list)
-    on_counts = defaultdict(list)
+    pseudochannel_on_counts = defaultdict(list)
+    channel_on_counts = defaultdict(list)
     epochs = defaultdict(int)
 
     for (folder, policy) in zip(folders, policies):
-        channel_status, power_used, on_count, epoch = extract_log(join(folder, "log"), budget)
+        channel_status, power_used, pseudochannel_on_count, channel_on_count, epoch = extract_log(join(folder, "log"), budget)
         for channel in channel_status:
             channels[channel][policy] = channel_status[channel]
         powers[policy] = power_used
-        on_counts[policy] = on_count
+        pseudochannel_on_counts[policy] = pseudochannel_on_count
+        channel_on_counts[policy] = channel_on_count
         epochs[policy] = epoch
     
-    return channels, powers, on_counts, epochs
+    return channels, powers, pseudochannel_on_counts, channel_on_counts, epochs
 
 def plot_workload(directory, budget, workload):
-    channels, powers, on_counts, epochs = extract_workload(directory, budget, workload)
+    channels, powers, pseudochannel_on_counts, channel_on_counts, epochs = extract_workload(directory, budget, workload)
 
     # check if directory exists
     if not isdir(join("plots", str(budget), f"{workload:02d}")):
@@ -120,10 +128,32 @@ def plot_workload(directory, budget, workload):
             f.write(",".join([str(powers[policy][i]) if i < len(powers[policy]) else "" for policy in powers]))
             f.write("\n")
 
-    fig, axs = plt.subplots(len(on_counts), 1, sharex=True, sharey=True)
+    fig, axs = plt.subplots(len(pseudochannel_on_counts), 1, sharex=True, sharey=True)
+    fig.suptitle("Number of pesudochannels on")
+    for i, policy in enumerate(pseudochannel_on_counts):
+        axs[i].plot(pseudochannel_on_counts[policy], label=policy, color=colors[policy])
+        axs[i].set_title(policy)
+        axs[i].set_ylabel("Number of pseudochannels")
+    axs[-1].set_xlabel("Epoch")
+    plt.savefig(join("plots", str(budget), f"{workload:02d}", "pesudochannels_on.png"))
+    # plt.show()
+    plt.clf()
+    plt.close(fig)
+
+    with open(join("plots", str(budget), f"{workload:02d}", "pseudochannels_on.csv"), "w") as f:
+        f.write("Epoch,")
+        f.write(",".join(names[policy] for policy in pseudochannel_on_counts))
+        f.write("\n")
+        T = max([len(pseudochannel_on_counts[policy]) for policy in pseudochannel_on_counts])
+        for i in range(T):
+            f.write(f"{i},")
+            f.write(",".join([str(pseudochannel_on_counts[policy][i]) if i < len(pseudochannel_on_counts[policy]) else "" for policy in pseudochannel_on_counts]))
+            f.write("\n")
+
+    fig, axs = plt.subplots(len(channel_on_counts), 1, sharex=True, sharey=True)
     fig.suptitle("Number of channels on")
-    for i, policy in enumerate(on_counts):
-        axs[i].plot(on_counts[policy], label=policy, color=colors[policy])
+    for i, policy in enumerate(channel_on_counts):
+        axs[i].plot(channel_on_counts[policy], label=policy, color=colors[policy])
         axs[i].set_title(policy)
         axs[i].set_ylabel("Number of channels")
     axs[-1].set_xlabel("Epoch")
@@ -134,12 +164,12 @@ def plot_workload(directory, budget, workload):
 
     with open(join("plots", str(budget), f"{workload:02d}", "channels_on.csv"), "w") as f:
         f.write("Epoch,")
-        f.write(",".join(names[policy] for policy in on_counts))
+        f.write(",".join(names[policy] for policy in channel_on_counts))
         f.write("\n")
-        T = max([len(on_counts[policy]) for policy in on_counts])
+        T = max([len(channel_on_counts[policy]) for policy in channel_on_counts])
         for i in range(T):
             f.write(f"{i},")
-            f.write(",".join([str(on_counts[policy][i]) if i < len(on_counts[policy]) else "" for policy in on_counts]))
+            f.write(",".join([str(channel_on_counts[policy][i]) if i < len(channel_on_counts[policy]) else "" for policy in channel_on_counts]))
             f.write("\n")
     
     return epochs
